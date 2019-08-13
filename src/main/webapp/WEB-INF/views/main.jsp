@@ -52,35 +52,67 @@
 
                 this.startBtn = this.startbox.querySelector("button");
                 this.nameInput = this.startbox.querySelector("input");
+
+                this.msgTextArea = this.chatbox.querySelector("textarea");
+                this.chatMessageContainer = this.chatbox.querySelector(".messages");
+
                 this.bindEvents();
             },
             bindEvents() {
-                this.startBtn.addEventListener("click", e => this.openSocket())
+                this.startBtn.addEventListener("click", e => this.openSocket());
+                this.msgTextArea.addEventListener("keyup", e => {
+                    if (e.ctrlKey && e.keyCode === 13) {
+                        e.preventDefault();
+                        this.send();
+                    }
+                })
             },
-            onOpenSock(){
+            send() {
+                this.sendMessage(
+                    {
+                        name: this.name,
+                        text: this.msgTextArea.value
+                    }
+                );
+            },
+            onOpenSock() {
 
             },
-            onMessage(e){
+            onMessage(msg) {
+                let msgBlock = document.createElement("div");
+                msgBlock.className = "msg";
+
+                let fromBlock = document.createElement("div");
+                fromBlock.className = "from";
+                fromBlock.innerText = msg.name;
+
+                let textBlock = document.createElement("div");
+                textBlock.className = "text";
+                textBlock.innerText = msg.text;
+
+                msgBlock.appendChild(fromBlock);
+                msgBlock.appendChild(textBlock);
+                this.chatMessageContainer.prepend(msgBlock);
+            },
+            onClose() {
 
             },
-            onClose(){
-
-            },
-            sendMessage(msg){
+            sendMessage(msg) {
+                this.onMessage({name: "I.m", text:msg.text});
+                this.msgTextArea.value = "";
                 this.ws.send(JSON.stringify(msg));
             },
             openSocket() {
-                this.ws = new WebSocket("ws://localhost:8080/chat");
-                this.ws.onopen = ()=>this.onOpenSock();
-                this.ws.onmessage = (e)=>this.onMessage(JSON.parse(e.data));
-                his.ws.onclose = ()=>this.onClose();
-
-                this.startbox.style.display="none";
                 this.name = this.nameInput.value;
-                this.chatbox.style.display="block";
+                this.ws = new WebSocket("ws://localhost:8080/chat/"+this.name);
+                this.ws.onopen = () => this.onOpenSock();
+                this.ws.onmessage = (e) => this.onMessage(JSON.parse(e.data));
+                this.ws.onclose = () => this.onClose();
+                this.startbox.style.display = "none";
+                this.chatbox.style.display = "block";
             }
         };
-        window.addEventListener("load", e=>chatUnit.init());
+        window.addEventListener("load", e => chatUnit.init());
     </script>
 </head>
 <body>
@@ -90,13 +122,8 @@
     <button id="start">start</button>
 </div>
 <div class="chatbox">
-    <div class="messages">
-        <div class="msg">
-            <div class="from">vasya</div>
-            <div class="text">hello world</div>
-        </div>
-    </div>
     <textarea class="msg"></textarea>
+    <div class="messages"></div>
 
 </div>
 </body>
