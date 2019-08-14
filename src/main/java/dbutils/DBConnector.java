@@ -10,9 +10,18 @@ public class DBConnector {
     public static String DB_Driver = "org.h2.Driver";
 
     static {
-        DB_URL = "jdbc:h2:"+System.getProperty("user.dir")+"/db/data";
+        DB_URL = "jdbc:h2:"+System.getProperty("user.dir")+"/db/data.dev";
+        try {
+            Class.forName(DB_Driver);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace(); //TODO логирование
+        }
+
     }
 
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(DB_URL);
+    }
     public static void main(String[] args) {
         try {
             Class.forName(DB_Driver);

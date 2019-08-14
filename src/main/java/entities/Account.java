@@ -6,7 +6,7 @@ import lombok.Data;
 import java.math.BigDecimal;
 @Data
 @Builder
-public class Account {
+public class Account implements DBEntity {
     private long id;
     private String accountNumber;
     private String currencyCode;

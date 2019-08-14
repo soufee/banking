@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Client {
+public class Client implements DBEntity{
     private long id;
     private String firstName;
     private String lastName;

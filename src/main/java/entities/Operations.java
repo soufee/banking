@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-public class Operations {
+public class Operations implements DBEntity{
     private long id;
     private OperationType operationType;
     private String from; //accountNumber of payer
