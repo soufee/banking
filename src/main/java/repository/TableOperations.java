@@ -6,13 +6,15 @@ import java.util.List;
 public interface TableOperations<T> {
     void clear();
 
-    void update(T t);
+    T update(T t);
 
-    void save(T t);
+    T save(T t);
 
-    T get(long id);
+    T get(Long id);
 
-    void delete(long id);
+    boolean delete(Long id);
+
+    boolean delete(T t);
 
     List<T> getAll();
 

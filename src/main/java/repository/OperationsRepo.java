@@ -1,8 +1,10 @@
 package repository;
 
 import dbutils.SqlHelper;
+import entities.DBEntity;
 import entities.Operations;
 
+import java.sql.ResultSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,28 +18,38 @@ public class OperationsRepo extends BaseTable implements TableOperations<Operati
     }
 
     @Override
+    protected List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception {
+        return null;
+    }
+
+    @Override
     public void clear() {
         super.clear(TABLE_NAME);
     }
 
     @Override
-    public void update(Operations operations) {
-
-    }
-
-    @Override
-    public void save(Operations operations) {
-
-    }
-
-    @Override
-    public Operations get(long id) {
+    public Operations update(Operations operations) {
         return null;
     }
 
     @Override
-    public void delete(long id) {
-        super.delete(id, TABLE_NAME);
+    public Operations save(Operations operations) {
+        return null;
+    }
+
+    @Override
+    public Operations get(Long id) {
+        return null;
+    }
+
+    @Override
+    public boolean delete(Long id) {
+        return super.delete(id, TABLE_NAME);
+    }
+
+    @Override
+    public boolean delete(Operations operations) {
+        return false;
     }
 
     @Override

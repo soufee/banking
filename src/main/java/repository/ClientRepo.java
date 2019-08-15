@@ -3,7 +3,9 @@ package repository;
 import dbutils.SqlHelper;
 import entities.Account;
 import entities.Client;
+import entities.DBEntity;
 
+import java.sql.ResultSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,28 +19,39 @@ public class ClientRepo extends BaseTable implements TableOperations<Client> {
     }
 
     @Override
+    protected List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception {
+        return null;
+    }
+
+    @Override
     public void clear() {
         super.clear(TABLE_NAME);
     }
 
     @Override
-    public void update(Client client) {
-
-    }
-
-    @Override
-    public void save(Client client) {
-
-    }
-
-    @Override
-    public Client get(long id) {
+    public Client update(Client client) {
         return null;
     }
 
     @Override
-    public void delete(long id) {
-        super.delete(id, TABLE_NAME);
+    public Client save(Client client) {
+        return null;
+    }
+
+    @Override
+    public Client get(Long id) {
+        return null;
+    }
+
+
+    @Override
+    public boolean delete(Long id) {
+        return super.delete(id, TABLE_NAME);
+    }
+
+    @Override
+    public boolean delete(Client client) {
+        return false;
     }
 
     @Override

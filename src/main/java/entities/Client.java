@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 @Builder
 public class Client implements DBEntity{
-    private long id;
+    private Long id;
     private String firstName;
     private String lastName;
     private String address;

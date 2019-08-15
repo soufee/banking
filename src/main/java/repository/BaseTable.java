@@ -1,16 +1,15 @@
 package repository;
 
-import dbutils.ExceptionUtil;
 import dbutils.SqlHelper;
-import entities.Account;
 import entities.DBEntity;
+import lombok.extern.log4j.Log4j;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Log4j
 public abstract class BaseTable {
     private SqlHelper helper;
 
@@ -18,25 +17,11 @@ public abstract class BaseTable {
         this.helper = helper;
     }
 
-    protected boolean isRecordExist(DBEntity t, String tableName) {
-        DBEntity fromDb = helper.execute("SELECT * FROM " + tableName + " where ID = ?", ps -> {
-            ps.setLong(1, t.getId());
-            ResultSet rs = ps.executeQuery();
-            if (!rs.next()) {
-                return null;
-            }
-            return Account.builder()
-                    .id(rs.getLong("id"))
-                    .build();
-        });
-        return fromDb != null;
-    }
-
-    public void clear(String tableName) {
+    protected void clear(String tableName) {
         helper.execute("DELETE FROM " + tableName, PreparedStatement::execute);
     }
 
-    public void delete(long id, String tableName) {
+    protected boolean delete(long id, String tableName) {
         helper.execute("DELETE FROM " + tableName + " WHERE id = ?", statement -> {
             statement.setLong(1, id);
             if (statement.executeUpdate() == 0) {
@@ -45,16 +30,22 @@ public abstract class BaseTable {
             }
             return null;
         });
+        return false;
     }
 
-    public List<DBEntity> getAll(String tableName) {
-        return new ArrayList<>();
+    protected List<DBEntity> getAll(String tableName) {
+        return helper.execute("SELECT * FROM " + tableName, s -> {
+            ResultSet resultSet = s.executeQuery();
+            return getEntityFromResultSet(resultSet);
+        });
     }
 
-    public int size(String tableName) {
+    protected int size(String tableName) {
         return helper.execute("SELECT count(*) FROM " + tableName, statement -> {
             ResultSet results = statement.executeQuery();
             return results.next() ? results.getInt(1) : 0;
         });
     }
+
+    protected abstract List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception;
 }
