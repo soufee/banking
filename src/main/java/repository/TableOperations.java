@@ -12,8 +12,6 @@ public interface TableOperations<T> {
 
     T get(Long id);
 
-    boolean delete(Long id);
-
     boolean delete(T t);
 
     List<T> getAll();

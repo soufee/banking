@@ -1,6 +1,6 @@
 package dbutils;
 
-import exceptions.StorageException;
+import exceptions.TableException;
 import lombok.extern.log4j.Log4j;
 
 import java.sql.Connection;
@@ -51,7 +51,7 @@ public class SqlHelper {
                 throw ExceptionUtil.convertException(e);
             }
         } catch (SQLException e) {
-            throw new StorageException(e);
+            throw new TableException(e);
         }
     }
 }

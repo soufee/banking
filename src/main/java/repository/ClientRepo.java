@@ -1,15 +1,21 @@
 package repository;
 
+import com.google.common.base.Preconditions;
 import dbutils.SqlHelper;
 import entities.Account;
 import entities.Client;
 import entities.DBEntity;
+import entities.enums.Sex;
+import lombok.extern.log4j.Log4j;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ClientRepo extends BaseTable implements TableOperations<Client> {
+@Log4j
+public class ClientRepo extends BaseTable implements ClientRepoInterface {
     private SqlHelper helper;
     private static final String TABLE_NAME = "CLIENTS";
 
@@ -18,10 +24,6 @@ public class ClientRepo extends BaseTable implements TableOperations<Client> {
         this.helper = helper;
     }
 
-    @Override
-    protected List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception {
-        return null;
-    }
 
     @Override
     public void clear() {
@@ -30,37 +32,126 @@ public class ClientRepo extends BaseTable implements TableOperations<Client> {
 
     @Override
     public Client update(Client client) {
-        return null;
+        Preconditions.checkNotNull(client);
+        log.debug("Updating client " + client.getId());
+        Client toUpdate = get(client.getId());
+        if (toUpdate != null) {
+            return helper.execute("UPDATE " + TABLE_NAME + " SET " +
+                    "firstname = ?, " +
+                    "lastname = ?, " +
+                    "isblocked = ?, " +
+                    "address = ?, " +
+                    "phone = ?, " +
+                    "document = ?, " +
+                    "sex = ? " +
+                    "where id = ?", ps -> {
+                ps.setString(1, client.getFirstName());
+                ps.setString(2, client.getLastName());
+                ps.setBoolean(3, client.isBlocked());
+                ps.setString(4, client.getAddress());
+                ps.setString(5, client.getPhone());
+                ps.setString(6, client.getDocument());
+                ps.setString(7, client.getSex().toString());
+                ps.setLong(8, client.getId());
+                if (ps.executeUpdate() != 1) {
+                    log.warn("Exception while updating the record " + client.getId() + " in " + TABLE_NAME);
+                    throw new RuntimeException("Exception while updating the client record with id " + client.getId());
+                }
+                Client result = get(client.getId());
+                log.debug("Updated client = " + result.getId() + ": " + result.getFirstName() + " " + result.getLastName());
+                return result;
+            });
+        } else {
+            log.debug("Could not update. The record " + client.getId() + " does not exist in table " + TABLE_NAME);
+            return save(client);
+        }
     }
 
     @Override
     public Client save(Client client) {
-        return null;
+        Preconditions.checkNotNull(client);
+        log.debug("Saving client " + client.getId());
+        Client gotClientById = get(client.getId());
+        if (gotClientById != null) {
+            log.debug("The client " + client.getId() + " already exists...");
+            return update(gotClientById);
+        } else {
+            helper.transactionalExecute(conn -> {
+                PreparedStatement statement = conn.prepareStatement(
+                        "INSERT INTO " + TABLE_NAME + " (FIRSTNAME, LASTNAME, ADDRESS, PHONE, SEX, ISBLOCKED, DOCUMENT)" +
+                                " VALUES (?, ?, ?, ?, ?, ?, ?)");
+                statement.setString(1, client.getFirstName());
+                statement.setString(2, client.getLastName());
+                statement.setString(3, client.getAddress());
+                statement.setString(4, client.getPhone());
+                statement.setString(5, client.getSex().toString());
+                statement.setBoolean(6, client.isBlocked());
+                statement.setString(7, client.getDocument());
+                statement.execute();
+                return client;
+            });
+            Client saved = get(client.getId());
+            log.debug("Saved client " + saved.getId());
+            return saved;
+        }
+
     }
 
     @Override
     public Client get(Long id) {
-        return null;
+        log.debug("Get Client " + id);
+        return (Client) super.get(id, TABLE_NAME);
     }
 
-
-    @Override
-    public boolean delete(Long id) {
+    private boolean delete(Long id) {
         return super.delete(id, TABLE_NAME);
     }
 
     @Override
     public boolean delete(Client client) {
-        return false;
+        Preconditions.checkNotNull(client);
+        log.debug("delete client " + client.getId());
+        return delete(client.getId());
     }
 
     @Override
     public List<Client> getAll() {
+        log.debug("getAll clients ");
         return super.getAll(TABLE_NAME).stream().map(s -> (Client) s).collect(Collectors.toList());
     }
 
     @Override
     public int size() {
-        return super.size(TABLE_NAME);
+        int size = super.size(TABLE_NAME);
+        log.debug("Size of table " + TABLE_NAME + " = " + size);
+        return size;
+    }
+
+    @Override
+    public Client getByDocument(String docNumber) {
+        Preconditions.checkState(docNumber.length() > 0 && docNumber.length() <= 10, "Document number must not be empty and must have length not more than 10 characters");
+        log.debug("Getting Client by Document "+docNumber);
+        return getAll().stream().filter(s -> s.getDocument().equals(docNumber)).findFirst().orElse(null);
+    }
+
+
+    @Override
+    protected List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception {
+        log.debug("Geting list of Clients by ResultSet ");
+        List<DBEntity> list = new ArrayList<>();
+        while (rs.next()) {
+            list.add(Client.builder()
+                    .id(rs.getLong("id"))
+                    .firstName(rs.getString("FIRSTNAME"))
+                    .lastName(rs.getString("LASTNAME"))
+                    .address(rs.getString("ADDRESS"))
+                    .phone(rs.getString("PHONE"))
+                    .sex(Sex.valueOf(rs.getString("SEX")))
+                    .isBlocked(rs.getBoolean("isblocked"))
+                    .document(rs.getString("DOCUMENT"))
+                    .build());
+        }
+        log.debug("Size of list got from ResultSet =  " + list.size());
+        return list;
     }
 }

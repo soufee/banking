@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Log4j
-public class AccountRepo extends BaseTable implements TableOperations<Account> {
+public class AccountRepo extends BaseTable implements AccountRepoInterface {
     private SqlHelper helper;
     public static final String TABLE_NAME = "ACCOUNTS";
 
@@ -26,6 +26,7 @@ public class AccountRepo extends BaseTable implements TableOperations<Account> {
 
     @Override
     public void clear() {
+        log.debug("Clearing the table " + TABLE_NAME);
         super.clear(TABLE_NAME);
     }
 
@@ -40,7 +41,7 @@ public class AccountRepo extends BaseTable implements TableOperations<Account> {
                 ps.setBoolean(2, account.isBlocked());
                 ps.setLong(3, account.getId());
                 if (ps.executeUpdate() != 1) {
-                    log.debug("Exception while updating the record " + account.getAccountNumber() + " in " + TABLE_NAME);
+                    log.warn("Exception while updating the record " + account.getAccountNumber() + " in " + TABLE_NAME);
                     throw new RuntimeException("Exception while updating the Account record with id " + account.getId());
                 }
                 return getAccountByAccountNumber(account.getAccountNumber());
@@ -79,67 +80,51 @@ public class AccountRepo extends BaseTable implements TableOperations<Account> {
 
     @Override
     public Account get(Long id) {
-        return helper.execute("select * from " + TABLE_NAME + " where id = ?", statement -> {
-            statement.setLong(1, id);
-            ResultSet rs = statement.executeQuery();
-            List<DBEntity> entityFromResultSet = getEntityFromResultSet(rs);
-            if (entityFromResultSet.size() == 1)
-                return (Account) entityFromResultSet.get(0);
-            else {
-                log.warn("Query has got wrong answer " + entityFromResultSet.size());
-                return null;
-            }
-        });
+        log.debug("Get Account " + id);
+        return (Account) super.get(id, TABLE_NAME);
     }
 
     @Override
     public boolean delete(Account account) {
         Preconditions.checkNotNull(account);
         log.debug("Deleting account " + account.getAccountNumber());
-        return delete(account.getId());
-    }
-
-    @Override
-    public boolean delete(Long id) {
-        return super.delete(id, TABLE_NAME);
+        return super.delete(account.getId(), TABLE_NAME);
     }
 
     @Override
     public List<Account> getAll() {
+        log.debug("Get All records in table " + TABLE_NAME);
         return super.getAll(TABLE_NAME).stream().map(s -> (Account) s).collect(Collectors.toList());
     }
 
     @Override
     public int size() {
-        return super.size(TABLE_NAME);
+        int size = super.size(TABLE_NAME);
+        log.debug("Geting size of table = " + size);
+        return size;
     }
 
+    @Override
     public List<Account> getAccountsByClient(Client client) {
+        log.debug("Get All accounts of Client " + client.getFirstName() + " " + client.getLastName());
         return getAccountsByClientId(client.getId());
     }
 
-    public List<Account> getAccountsByClientId(Long id) {
-        return null;
-
-    }
-
-    public Account getAccountByAccountNumber(String accountNumber) {
-        return helper.execute("SELECT * FROM " + TABLE_NAME + " where ACCOUNT_NUMBER = ?", statement -> {
-            statement.setString(1, accountNumber);
-            ResultSet rs = statement.executeQuery();
-            List<DBEntity> entityFromResultSet = getEntityFromResultSet(rs);
-            if (entityFromResultSet.size() == 1)
-                return (Account) entityFromResultSet.get(0);
-            else {
-                log.error("Query has got wrong answer " + entityFromResultSet.size());
-                return null;
-            }
-        });
+    private List<Account> getAccountsByClientId(Long id) {
+        log.debug("Get All accounts of Client with ID " + id);
+        return getAll().stream().filter(s -> s.getOwner().equals(id)).collect(Collectors.toList());
 
     }
 
     @Override
+    public Account getAccountByAccountNumber(String accountNumber) {
+        Preconditions.checkState(accountNumber != null && !"".equals(accountNumber), "Account number must not be null or empty");
+        return getAll().stream().filter(s -> s.getAccountNumber().equals(accountNumber)).findFirst().orElse(null);
+    }
+
+    @Override
     protected List<DBEntity> getEntityFromResultSet(ResultSet rs) throws SQLException {
+        log.debug("Geting list of Accounts by ResultSet ");
         List<DBEntity> list = new ArrayList<>();
         while (rs.next()) {
             list.add(Account.builder()
@@ -151,8 +136,8 @@ public class AccountRepo extends BaseTable implements TableOperations<Account> {
                     .isBlocked(rs.getBoolean("isblocked"))
                     .build());
         }
+        log.debug("Size of list got from ResultSet =  " + list.size());
         return list;
-
     }
 
 }
