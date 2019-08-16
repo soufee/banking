@@ -88,7 +88,10 @@ public class AccountRepo extends BaseTable implements AccountRepoInterface {
     public boolean delete(Account account) {
         Preconditions.checkNotNull(account);
         log.debug("Deleting account " + account.getAccountNumber());
-        return super.delete(account.getId(), TABLE_NAME);
+        Account accountByAccountNumber = getAccountByAccountNumber(account.getAccountNumber());
+        if (accountByAccountNumber != null)
+            return super.delete(accountByAccountNumber.getId(), TABLE_NAME);
+        else return false;
     }
 
     @Override

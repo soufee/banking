@@ -24,7 +24,7 @@ public class AccountRepoTest extends BaseTableTest {
 
     @After
     public  void clearData() {
-        cleanUp();
+        accountRepo.clear();
     }
 
     @Test

@@ -2,7 +2,6 @@ package repository;
 
 import dbutils.SqlHelper;
 import entities.*;
-import entities.enums.Sex;
 import org.junit.*;
 
 
@@ -14,9 +13,9 @@ public class BaseTableTest {
     public static AccountRepoInterface accountRepo = new AccountRepo(helper);
     public static ClientRepoInterface clientRepo = new ClientRepo(helper);
     public static OperationRepoInterface operationRepo = new OperationRepo(helper);
-    public static Client client1 = Client.builder().id(1L).firstName("Ivan").lastName("Ivanov").address("Russia").document("1616161616").isBlocked(false).sex(Sex.MALE).phone("+79041123232").build();
-    public static Client client2 = Client.builder().id(2L).firstName("Petra").lastName("Stankovic").address("Slovakia").document("1919191919").isBlocked(false).sex(Sex.FEMALE).phone("+7904000000").build();
-    public static Client client3 = Client.builder().id(3L).firstName("Miroslava").lastName("Karpovic").address("Serbia").document("2000222111").isBlocked(false).sex(Sex.FEMALE).phone("+7904000003").build();
+    public static Client client1 = Client.builder().id(1L).firstName("Ivan").lastName("Ivanov").address("Russia").document("1616161616").isBlocked(false).sex("MALE").phone("+79041123232").build();
+    public static Client client2 = Client.builder().id(2L).firstName("Petra").lastName("Stankovic").address("Slovakia").document("1919191919").isBlocked(false).sex("FEMALE").phone("+7904000000").build();
+    public static Client client3 = Client.builder().id(3L).firstName("Miroslava").lastName("Karpovic").address("Serbia").document("2000222111").isBlocked(false).sex("FEMALE").phone("+7904000003").build();
     public static Account account1 = Account.builder().accountNumber("111").amount(new BigDecimal(500.50)).currencyCode("RUB").owner(1L).isBlocked(false).build();
     public static Account account2 = Account.builder().accountNumber("222").amount(new BigDecimal(1000.50)).currencyCode("RUB").owner(2L).isBlocked(false).build();
     public static Account account3 = Account.builder().accountNumber("333").amount(new BigDecimal(800)).currencyCode("RUB").owner(3L).isBlocked(false).build();

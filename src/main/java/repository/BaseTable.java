@@ -21,7 +21,7 @@ public abstract class BaseTable {
         helper.execute("DELETE FROM " + tableName, PreparedStatement::execute);
     }
 
-    protected boolean delete(long id, String tableName) {
+    protected boolean delete(Long id, String tableName) {
         return helper.execute("DELETE FROM " + tableName + " WHERE id = ?", statement -> {
             statement.setLong(1, id);
             if (statement.executeUpdate() == 0) {
@@ -47,17 +47,26 @@ public abstract class BaseTable {
     }
 
     public DBEntity get(Long id, String tableName) {
-        return helper.execute("select * from " + tableName + " where id = ?", statement -> {
-            statement.setLong(1, id);
-            ResultSet rs = statement.executeQuery();
-            List<DBEntity> entityFromResultSet = getEntityFromResultSet(rs);
-            if (entityFromResultSet.size() == 1)
-                return entityFromResultSet.get(0);
-            else {
-                log.warn("Query has not found Entity " + id);
-                return null;
-            }
-        });
+        log.info("Getting " + id + " from " + tableName);
+        if (id == null){
+            return null;
+        }
+        try {
+            return helper.execute("select * from " + tableName + " where id = ?", statement -> {
+                statement.setLong(1, id);
+                ResultSet rs = statement.executeQuery();
+                List<DBEntity> entityFromResultSet = getEntityFromResultSet(rs);
+                if (entityFromResultSet.size() == 1)
+                    return entityFromResultSet.get(0);
+                else {
+                    log.warn("Query has not found Entity " + id);
+                    return null;
+                }
+            });
+        } catch (Exception e) {
+            log.error("Could not get entity " + id + " from table " + tableName, e);
+        }
+        return null;
     }
 
     protected abstract List<DBEntity> getEntityFromResultSet(ResultSet rs) throws Exception;

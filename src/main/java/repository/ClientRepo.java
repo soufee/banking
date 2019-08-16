@@ -5,7 +5,6 @@ import dbutils.SqlHelper;
 import entities.Account;
 import entities.Client;
 import entities.DBEntity;
-import entities.enums.Sex;
 import lombok.extern.log4j.Log4j;
 
 import java.sql.PreparedStatement;
@@ -51,7 +50,7 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
                 ps.setString(4, client.getAddress());
                 ps.setString(5, client.getPhone());
                 ps.setString(6, client.getDocument());
-                ps.setString(7, client.getSex().toString());
+                ps.setString(7, client.getSex());
                 ps.setLong(8, client.getId());
                 if (ps.executeUpdate() != 1) {
                     log.warn("Exception while updating the record " + client.getId() + " in " + TABLE_NAME);
@@ -84,14 +83,15 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
                 statement.setString(2, client.getLastName());
                 statement.setString(3, client.getAddress());
                 statement.setString(4, client.getPhone());
-                statement.setString(5, client.getSex().toString());
+                statement.setString(5, client.getSex());
                 statement.setBoolean(6, client.isBlocked());
                 statement.setString(7, client.getDocument());
                 statement.execute();
                 return client;
             });
             Client saved = get(client.getId());
-            log.debug("Saved client " + saved.getId());
+            if (saved != null)
+                log.debug("Saved client " + saved.getId());
             return saved;
         }
 
@@ -111,7 +111,10 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
     public boolean delete(Client client) {
         Preconditions.checkNotNull(client);
         log.debug("delete client " + client.getId());
-        return delete(client.getId());
+        Client byDocument = getByDocument(client.getDocument());
+        if (byDocument != null)
+            return delete(byDocument.getId());
+        else return false;
     }
 
     @Override
@@ -130,7 +133,7 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
     @Override
     public Client getByDocument(String docNumber) {
         Preconditions.checkState(docNumber.length() > 0 && docNumber.length() <= 10, "Document number must not be empty and must have length not more than 10 characters");
-        log.debug("Getting Client by Document "+docNumber);
+        log.debug("Getting Client by Document " + docNumber);
         return getAll().stream().filter(s -> s.getDocument().equals(docNumber)).findFirst().orElse(null);
     }
 
@@ -146,7 +149,7 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
                     .lastName(rs.getString("LASTNAME"))
                     .address(rs.getString("ADDRESS"))
                     .phone(rs.getString("PHONE"))
-                    .sex(Sex.valueOf(rs.getString("SEX")))
+                    .sex(rs.getString("SEX"))
                     .isBlocked(rs.getBoolean("isblocked"))
                     .document(rs.getString("DOCUMENT"))
                     .build());
