@@ -9,6 +9,7 @@ import lombok.extern.log4j.Log4j;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -44,19 +45,26 @@ public class OperationRepo extends BaseTable implements OperationRepoInterface {
         Operation gotOperation = get(operation.getId());
         if (gotOperation != null) {
             log.debug("The operation " + operation.getId() + " already exists...");
-            return update(gotOperation);
+            return operation;
         } else {
             return helper.transactionalExecute(conn -> {
                 PreparedStatement statement = conn.prepareStatement(
                         "INSERT INTO " + TABLE_NAME + " (from_acc, TO_ACC, amount, CURRENCY, DATE_TIME)" +
-                                " VALUES (?, ?, ?, ?, ?, ?)");
+                                " VALUES (?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
                 statement.setString(1, operation.getFrom());
                 statement.setString(2, operation.getTo());
                 statement.setBigDecimal(3, operation.getAmount());
                 statement.setString(4, operation.getCurrency());
                 statement.setTimestamp(5, Timestamp.valueOf(operation.getDateTime()));
                 statement.execute();
-                return null;
+                ResultSet resultSet = statement.getGeneratedKeys();
+                if (resultSet.next()) {
+                    long id = resultSet.getLong(1);
+                    operation.setId(id);
+                    return operation;
+                } else {
+                    return null;
+                }
             });
         }
     }

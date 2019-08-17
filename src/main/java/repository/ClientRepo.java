@@ -9,6 +9,7 @@ import lombok.extern.log4j.Log4j;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -75,10 +76,10 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
             log.debug("The client " + client.getId() + " already exists...");
             return update(gotClientById);
         } else {
-            helper.transactionalExecute(conn -> {
+            return helper.transactionalExecute(conn -> {
                 PreparedStatement statement = conn.prepareStatement(
                         "INSERT INTO " + TABLE_NAME + " (FIRSTNAME, LASTNAME, ADDRESS, PHONE, SEX, ISBLOCKED, DOCUMENT)" +
-                                " VALUES (?, ?, ?, ?, ?, ?, ?)");
+                                " VALUES (?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
                 statement.setString(1, client.getFirstName());
                 statement.setString(2, client.getLastName());
                 statement.setString(3, client.getAddress());
@@ -87,14 +88,15 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
                 statement.setBoolean(6, client.isBlocked());
                 statement.setString(7, client.getDocument());
                 statement.execute();
+                ResultSet resultSet = statement.getGeneratedKeys();
+                if (resultSet.next()) {
+                    long id = resultSet.getLong(1);
+                    client.setId(id);
+                    log.debug("Saved client with id "+id);
+                }
                 return client;
             });
-            Client saved = get(client.getId());
-            if (saved != null)
-                log.debug("Saved client " + saved.getId());
-            return saved;
         }
-
     }
 
     @Override

@@ -10,7 +10,6 @@ import java.sql.SQLException;
 
 @Log4j
 public class SqlHelper {
-    // private String DB_URL = "jdbc:h2:/c:/temp/Revolut/banking/db/data";
     private static String DB_URL;
     private static final String DB_DRIVER = "org.h2.Driver";
     private static ConnectionFactory connectionFactory;

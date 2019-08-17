@@ -10,6 +10,7 @@ import lombok.extern.log4j.Log4j;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -64,13 +65,19 @@ public class AccountRepo extends BaseTable implements AccountRepoInterface {
             Account acc = helper.transactionalExecute(conn -> {
                 PreparedStatement statement = conn.prepareStatement(
                         "INSERT INTO " + TABLE_NAME + " (ACCOUNT_NUMBER, CURRENCY_CODE, AMOUNT, OWNER, ISBLOCKED)" +
-                                " VALUES (?, ?, ?, ?, ?)");
+                                " VALUES (?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
                 statement.setString(1, account.getAccountNumber());
                 statement.setString(2, account.getCurrencyCode());
                 statement.setBigDecimal(3, account.getAmount());
                 statement.setLong(4, account.getOwner());
                 statement.setBoolean(5, account.isBlocked());
                 statement.execute();
+                ResultSet resultSet = statement.getGeneratedKeys();
+                if (resultSet.next()) {
+                    long id = resultSet.getLong(1);
+                    account.setId(id);
+                    log.debug("Saved account with id "+id);
+                }
                 return account;
             });
             return getAccountByAccountNumber(acc.getAccountNumber());

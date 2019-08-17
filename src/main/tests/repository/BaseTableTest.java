@@ -19,10 +19,10 @@ public class BaseTableTest {
     public static Account account1 = Account.builder().accountNumber("111").amount(new BigDecimal(500.50)).currencyCode("RUB").owner(1L).isBlocked(false).build();
     public static Account account2 = Account.builder().accountNumber("222").amount(new BigDecimal(1000.50)).currencyCode("RUB").owner(2L).isBlocked(false).build();
     public static Account account3 = Account.builder().accountNumber("333").amount(new BigDecimal(800)).currencyCode("RUB").owner(3L).isBlocked(false).build();
-    public static Operation operation1 = Operation.builder().from(account1.getAccountNumber()).to(account2.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(100)).dateTime(LocalDateTime.now()).build();
-    public static Operation operation2 = Operation.builder().from(account3.getAccountNumber()).to(account1.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(50)).dateTime(LocalDateTime.now()).build();
-    public static Operation operation3 = Operation.builder().from(account2.getAccountNumber()).to(account1.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(45)).dateTime(LocalDateTime.now()).build();
-    public static Operation operation4 = Operation.builder().from(account1.getAccountNumber()).to(account3.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(350)).dateTime(LocalDateTime.now()).build();
+    public static Operation operation1 = Operation.builder().id(1L).from(account1.getAccountNumber()).to(account2.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(100)).dateTime(LocalDateTime.now()).build();
+    public static Operation operation2 = Operation.builder().id(2L).from(account3.getAccountNumber()).to(account1.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(50)).dateTime(LocalDateTime.now()).build();
+    public static Operation operation3 = Operation.builder().id(3L).from(account2.getAccountNumber()).to(account1.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(45)).dateTime(LocalDateTime.now()).build();
+    public static Operation operation4 = Operation.builder().id(4L).from(account1.getAccountNumber()).to(account3.getAccountNumber()).currency("RUB").amount(BigDecimal.valueOf(350)).dateTime(LocalDateTime.now()).build();
 
     @AfterClass
     public static void cleanUp() {

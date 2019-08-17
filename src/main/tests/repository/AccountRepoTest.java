@@ -29,19 +29,15 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void clear() {
-        log.debug("Clear...");
         List<Account> all = accountRepo.getAll();
-        log.debug("Clear: all.size = "+all.size());
         assertEquals(3, all.size());
         accountRepo.clear();
         all = accountRepo.getAll();
-        log.debug("Clear: all.size = "+all.size());
         assertEquals(0, all.size());
     }
 
     @Test
     public void delete() {
-        log.debug("Delete...");
         Account accountByAccountNumber = accountRepo.getAccountByAccountNumber("222");
         boolean delete = accountRepo.delete(accountByAccountNumber);
         assertTrue(delete);
@@ -51,7 +47,6 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void getAll() {
-        log.debug("getAll...");
         List<Account> all = accountRepo.getAll();
         assertTrue(all.contains(account1));
         assertTrue(all.contains(account2));
@@ -60,14 +55,12 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void size() {
-        log.debug("size...");
         List<Account> all = accountRepo.getAll();
         assertEquals(all.size(), 3);
     }
 
     @Test
     public void get() {
-        log.debug("get...");
         Account accountByAccountNumber = accountRepo.getAccountByAccountNumber(account1.getAccountNumber());
         Account byId = accountRepo.get(accountByAccountNumber.getId());
         assertEquals(accountByAccountNumber, byId);
@@ -76,7 +69,6 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void update() {
-        log.debug("update...");
         Account acc = accountRepo.getAccountByAccountNumber(account3.getAccountNumber());
         assertEquals(account3.getAmount(), acc.getAmount());
         acc.setAmount(acc.getAmount().add(BigDecimal.valueOf(350)));
@@ -86,7 +78,6 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void save() {
-        log.debug("save...");
         Account acc = Account.builder()
                 .owner(1L)
                 .accountNumber("865")
@@ -103,7 +94,6 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void getAccountsByClient() {
-        log.debug("getAccountsByClient...");
         List<Account> accountsByClient = accountRepo.getAccountsByClient(client1);
         assertTrue(accountsByClient.contains(account1));
         assertFalse(accountsByClient.contains(account2));
@@ -112,7 +102,6 @@ public class AccountRepoTest extends BaseTableTest {
 
     @Test
     public void getAccountByAccountNumber() {
-        log.debug("getAccountByAccountNumber...");
         Account accountByAccountNumber = accountRepo.getAccountByAccountNumber("222");
         assertEquals(accountByAccountNumber, account2);
     }

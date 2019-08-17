@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @Builder
-public class Client implements DBEntity{
+public class Client implements DBEntity {
     @EqualsAndHashCode.Exclude
     private Long id;
     private String firstName;
@@ -16,4 +16,12 @@ public class Client implements DBEntity{
     private String sex;
     private boolean isBlocked;
     private String document;
+
+    @Override
+    public String toString() {
+        return "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", document='" + document+"'";
+    }
 }
