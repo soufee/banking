@@ -26,4 +26,3 @@ In target folder run command
 java -jar banking.war
 
 If there's an exception, related with missing tables in database, copy into target/db files from ROOT/db 
-
