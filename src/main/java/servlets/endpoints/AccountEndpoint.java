@@ -18,6 +18,7 @@ import java.math.BigDecimal;
 import java.util.*;
 import java.util.concurrent.*;
 
+@Deprecated
 @Log4j
 @ServerEndpoint(value = "/client/{client}", decoders = {OperationDecoder.class, MessageDecoder.class, ClientDecoder.class, AccountDecoder.class}, encoders = {OperationEncoder.class, AccountEncoder.class, MessageEncoder.class, ClientEncoder.class})
 public class AccountEndpoint {

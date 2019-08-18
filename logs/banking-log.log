@@ -1,0 +1,1863 @@
+2019-08-15 22:14:50 ERROR AccountRepo:134 - Query has got wrong answer 0
+2019-08-15 22:14:51 ERROR AccountRepo:134 - Query has got wrong answer 0
+2019-08-15 22:14:52 ERROR AccountRepo:134 - Query has got wrong answer 0
+2019-08-16 22:59:34 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:35 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:36 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:36 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:37 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:38 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:38 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:39 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:40 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:41 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:44 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:45 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:46 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:46 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 22:59:47 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:45 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:46 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:46 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:47 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:48 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:49 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:50 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:50 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:51 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:52 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:53 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:56 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:57 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:58 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:05:59 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:06:00 WARN  BaseTable:57 - Query has not found Entity 1
+2019-08-16 23:10:35 INFO  BaseTable:50 - Getting 306 from ACCOUNTS
+2019-08-16 23:10:47 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:47 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:48 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:48 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:48 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:48 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:49 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:49 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:49 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:49 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:49 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:49 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:52 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:52 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:53 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:53 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:53 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:53 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:53 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:53 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:54 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:54 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:55 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:55 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:55 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:55 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:56 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:56 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:56 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:56 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:57 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:57 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:57 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:57 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:58 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:10:58 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:10:58 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:58 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:58 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:10:58 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:10:59 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:59 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:10:59 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:10:59 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:00 INFO  BaseTable:50 - Getting 26 from CLIENTS
+2019-08-16 23:11:00 INFO  BaseTable:50 - Getting 26 from CLIENTS
+2019-08-16 23:11:01 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:01 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:01 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:01 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:01 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:01 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:02 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:04 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:04 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:04 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:05 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:05 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:05 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:05 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:06 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:06 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:06 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:06 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:07 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:07 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:07 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:07 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:07 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:07 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:08 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:11:08 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:08 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:09 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:09 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:09 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:09 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:09 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:09 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:10 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:10 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:10 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:10 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:11 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:11 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:11 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:11:11 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:11:11 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:11 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:12 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:11:12 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:11:12 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:12 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:11:13 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:11:13 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:13:31 INFO  BaseTable:50 - Getting 334 from ACCOUNTS
+2019-08-16 23:14:05 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:14:12 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:14:50 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:14:58 WARN  BaseTable:58 - Query has not found Entity 1
+2019-08-16 23:15:00 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:15:01 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:15:03 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:15:06 WARN  BaseTable:58 - Query has not found Entity 2
+2019-08-16 23:15:08 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:15:08 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:15:10 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:15:11 WARN  BaseTable:58 - Query has not found Entity 3
+2019-08-16 23:17:11 INFO  BaseTable:50 - Getting 362 from ACCOUNTS
+2019-08-16 23:17:24 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:24 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:25 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:25 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:25 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:25 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:25 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:25 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:26 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:28 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:28 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:29 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:29 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:30 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:30 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:30 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:30 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:30 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:30 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:31 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:31 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:32 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:32 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:32 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:32 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:33 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:33 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:33 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:34 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:34 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:34 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:34 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:35 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:35 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:35 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:35 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:36 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:36 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:36 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:36 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:37 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:37 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:37 INFO  BaseTable:50 - Getting 53 from CLIENTS
+2019-08-16 23:17:37 INFO  BaseTable:50 - Getting 53 from CLIENTS
+2019-08-16 23:17:40 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:40 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:41 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:41 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:41 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:41 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:42 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:42 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:42 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:42 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:43 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:43 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:43 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:43 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:44 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:17:44 WARN  BaseTable:59 - Query has not found Entity 1
+2019-08-16 23:17:44 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:44 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:17:45 WARN  BaseTable:59 - Query has not found Entity 2
+2019-08-16 23:17:45 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:45 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:45 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:17:45 WARN  BaseTable:59 - Query has not found Entity 3
+2019-08-16 23:17:46 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:22:13 INFO  BaseTable:50 - Getting 390 from ACCOUNTS
+2019-08-16 23:22:26 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:26 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:27 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:27 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:27 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:27 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:27 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:28 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:28 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:28 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:29 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:29 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:29 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:30 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:30 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:30 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:30 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:30 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:31 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:31 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:31 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:32 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:32 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:32 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:33 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:33 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:33 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:34 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:36 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:36 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:36 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:37 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:37 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:37 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:37 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:37 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:37 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:38 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:38 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:38 INFO  BaseTable:50 - Getting 71 from CLIENTS
+2019-08-16 23:22:39 INFO  BaseTable:50 - Getting 71 from CLIENTS
+2019-08-16 23:22:39 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:39 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:40 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:40 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:40 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:40 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:41 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:41 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:41 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:41 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:41 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:41 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:42 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:42 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:42 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:43 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:43 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:43 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:43 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:43 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:44 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:44 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:44 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:44 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:44 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:22:45 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:22:46 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:46 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:48 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:49 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:49 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:49 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:49 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:49 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:49 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:50 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:50 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:50 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:50 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:51 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:22:51 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:22:51 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:51 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:22:52 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:22:52 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:52 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:22:52 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:22:52 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:16 INFO  BaseTable:50 - Getting 418 from ACCOUNTS
+2019-08-16 23:30:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:30 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:30 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:30 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:30 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:30 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:31 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:31 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:31 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:31 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:31 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:32 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:32 WARN  BaseTable:28 - The record with id 2 has not found in table CLIENTS
+2019-08-16 23:30:33 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:33 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:33 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:33 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:33 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:34 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:34 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:34 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:34 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:34 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:35 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:35 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:35 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:36 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:36 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:36 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:36 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:36 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:37 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:37 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:37 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:39 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:40 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:40 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:41 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:41 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:41 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:41 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:41 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:41 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:42 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:42 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:42 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:42 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:42 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:43 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:43 INFO  BaseTable:50 - Getting 96 from CLIENTS
+2019-08-16 23:30:43 INFO  BaseTable:50 - Getting 96 from CLIENTS
+2019-08-16 23:30:44 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:44 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:45 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:45 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:45 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:45 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:46 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:46 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:46 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:46 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:47 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:47 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:47 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:47 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:48 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:48 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:48 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:48 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:48 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:48 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:49 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:49 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:49 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:30:49 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:30:52 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:52 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:53 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:53 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:53 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:53 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:53 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:53 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:54 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:54 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:55 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:30:55 WARN  BaseTable:60 - Query has not found Entity 1
+2019-08-16 23:30:56 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:56 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:56 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:30:56 WARN  BaseTable:60 - Query has not found Entity 2
+2019-08-16 23:30:56 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:57 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:30:57 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:30:57 WARN  BaseTable:60 - Query has not found Entity 3
+2019-08-16 23:36:16 INFO  BaseTable:50 - Getting 446 from ACCOUNTS
+2019-08-16 23:36:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:36:29 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:38:05 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:39:02 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:22 INFO  BaseTable:50 - Getting 474 from ACCOUNTS
+2019-08-16 23:43:44 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:44 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:45 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:45 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:45 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:46 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:46 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:46 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:43:47 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:47 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:43:48 WARN  BaseTable:28 - The record with id 2 has not found in table CLIENTS
+2019-08-16 23:43:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:51 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:52 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:52 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:53 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:53 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:53 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:54 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:43:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:54 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:43:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:55 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:56 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:43:56 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:43:56 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:57 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:57 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:43:58 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:43:58 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:58 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:43:59 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:43:59 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:00 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:00 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:00 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:03 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:03 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:03 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:04 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:05 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:05 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:05 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:06 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:06 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:07 INFO  BaseTable:50 - Getting 122 from CLIENTS
+2019-08-16 23:44:08 INFO  BaseTable:50 - Getting 122 from CLIENTS
+2019-08-16 23:44:09 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:10 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:10 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:11 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:11 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:11 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:12 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:12 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:12 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:12 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:13 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:16 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:16 INFO  BaseTable:50 - Getting 125 from CLIENTS
+2019-08-16 23:44:17 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:18 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:19 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:19 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:19 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:19 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:20 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:20 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:21 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:21 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:22 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:22 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:22 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:44:22 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:44:23 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:23 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:24 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:24 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:25 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:25 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:26 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:28 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:29 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:29 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:30 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:31 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:44:32 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:44:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:32 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:33 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:44:33 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:44:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:33 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:44:34 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:44:35 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:51:13 INFO  BaseTable:50 - Getting 502 from ACCOUNTS
+2019-08-16 23:51:27 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:51:27 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:51:27 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:51:27 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:51:28 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:51:28 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:51:28 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:51:28 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:51:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:51:29 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:51:29 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:51:29 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:14 INFO  BaseTable:50 - Getting 530 from ACCOUNTS
+2019-08-16 23:59:28 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:28 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:28 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:28 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:28 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:29 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:29 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:29 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:29 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:29 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:30 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:30 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:32 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:32 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:32 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:32 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:33 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:33 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:33 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:34 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:34 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:34 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:34 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:35 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:35 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:35 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:35 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:38 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:38 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:38 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:38 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:39 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:39 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:40 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:40 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:40 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:41 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:41 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:41 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:41 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:42 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:42 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:42 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:42 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:43 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:43 INFO  BaseTable:50 - Getting 150 from CLIENTS
+2019-08-16 23:59:43 INFO  BaseTable:50 - Getting 150 from CLIENTS
+2019-08-16 23:59:44 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:44 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:45 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:45 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:45 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:46 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:46 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:47 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:47 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:47 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:48 INFO  BaseTable:50 - Getting 153 from CLIENTS
+2019-08-16 23:59:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:51 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:51 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:52 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:52 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:53 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:53 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:53 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:53 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:53 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:59:54 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-16 23:59:54 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:55 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:55 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:55 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:55 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:56 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:56 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:56 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-16 23:59:57 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:57 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:57 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-16 23:59:57 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-16 23:59:58 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:58 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:59 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-16 23:59:59 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-16 23:59:59 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-16 23:59:59 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:00:00 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:00:00 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:00:00 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:00:00 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:00:03 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:00:03 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:30:00 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:30:02 ERROR BaseTable:67 - Could not get entity 1 from table OPERATIONS
+exceptions.TableException: ���� ������ ��� ������������: null. ��������� �������: ������� ��� ������ ����������; ������������ ����� �������
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-199]
+	at dbutils.ExceptionUtil.convertException(ExceptionUtil.java:12)
+	at dbutils.SqlHelper.execute(SqlHelper.java:36)
+	at repository.BaseTable.get(BaseTable.java:55)
+	at repository.OperationRepo.get(OperationRepo.java:67)
+	at repository.OperationRepo.save(OperationRepo.java:44)
+	at repository.OperationRepo.save(OperationRepo.java:19)
+	at repository.OperationRepoTest.setUp(OperationRepoTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2019-08-17 00:30:28 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:30:31 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:32:19 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:32:22 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:32:22 INFO  BaseTable:50 - Getting 2 from OPERATIONS
+2019-08-17 00:32:22 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:32:23 INFO  BaseTable:50 - Getting 3 from OPERATIONS
+2019-08-17 00:32:23 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:32:23 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 00:32:24 WARN  BaseTable:62 - Query has not found Entity 4
+2019-08-17 00:32:25 ERROR OperationRepo:36 - Not permitted to change operations. If you have mistaken, please storno the payment and provide another one
+2019-08-17 00:32:25 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:32:26 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 00:35:55 INFO  BaseTable:50 - Getting 558 from ACCOUNTS
+2019-08-17 00:36:12 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:12 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:13 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:13 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:13 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:13 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:14 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:14 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:14 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:14 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:15 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:15 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:17 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:17 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:17 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:18 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:18 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:18 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:18 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:19 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:19 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:19 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:19 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:19 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:20 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:20 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:21 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:21 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:21 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:21 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:24 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:24 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:24 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:25 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:25 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:25 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:26 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:26 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:27 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:27 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:27 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:27 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:28 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:28 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:28 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:29 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:29 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:29 INFO  BaseTable:50 - Getting 175 from CLIENTS
+2019-08-17 00:36:30 INFO  BaseTable:50 - Getting 175 from CLIENTS
+2019-08-17 00:36:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:31 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:31 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:32 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:32 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:32 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:33 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:33 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:33 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:34 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:34 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:37 INFO  BaseTable:50 - Getting 178 from CLIENTS
+2019-08-17 00:36:38 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:38 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:39 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:39 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:39 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:39 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:40 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:40 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:40 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:41 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:41 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:41 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:42 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 00:36:42 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 00:36:43 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:43 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:44 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:44 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:44 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:44 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:45 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:45 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:46 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:49 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:50 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:50 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 00:36:51 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:36:51 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:52 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 00:36:53 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:36:53 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:53 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:54 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 00:36:54 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:36:59 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:36:59 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:37:02 INFO  BaseTable:50 - Getting 2 from OPERATIONS
+2019-08-17 00:37:02 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 00:37:03 INFO  BaseTable:50 - Getting 3 from OPERATIONS
+2019-08-17 00:37:03 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 00:37:03 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 00:37:04 WARN  BaseTable:62 - Query has not found Entity 4
+2019-08-17 00:37:05 WARN  BaseTable:28 - The record with id 4 has not found in table OPERATIONS
+2019-08-17 00:37:06 ERROR OperationRepo:36 - Not permitted to change operations. If you have mistaken, please storno the payment and provide another one
+2019-08-17 00:37:06 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 00:37:06 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 00:37:07 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 10:44:26 INFO  BaseTable:50 - Getting 586 from ACCOUNTS
+2019-08-17 10:44:39 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:39 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:40 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:40 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:40 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:40 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:40 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:40 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:41 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:41 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:41 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:43 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:45 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:45 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:45 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:45 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:46 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:46 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:46 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:46 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:46 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:46 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:47 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:47 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:48 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:48 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:48 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:48 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:48 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:48 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:49 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:49 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:49 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:49 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:50 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:50 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:50 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:50 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:51 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:51 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:51 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:51 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:52 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:52 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:52 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:52 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:52 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:52 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:53 INFO  BaseTable:50 - Getting 200 from CLIENTS
+2019-08-17 10:44:53 INFO  BaseTable:50 - Getting 200 from CLIENTS
+2019-08-17 10:44:56 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:56 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:57 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:57 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:44:57 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:57 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:57 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:44:57 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:44:58 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:58 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:58 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:44:58 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:44:59 INFO  BaseTable:50 - Getting 203 from CLIENTS
+2019-08-17 10:44:59 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:44:59 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:00 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:45:00 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:00 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:00 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:00 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:00 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:00 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:01 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:01 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:01 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:01 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 10:45:02 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 10:45:02 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:45:02 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:02 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:45:03 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:03 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:03 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:03 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:03 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:03 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:04 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:04 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:04 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:05 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:45:05 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:05 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:45:05 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:45:05 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:05 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:06 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:45:08 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:45:08 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:08 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:09 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:45:09 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:45:11 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 10:45:11 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:50:51 INFO  BaseTable:50 - Getting 614 from ACCOUNTS
+2019-08-17 10:51:03 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:03 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:04 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:04 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:04 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:04 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:04 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:05 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:05 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:05 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:05 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:08 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:09 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:09 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:09 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:10 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:10 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:10 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:10 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:10 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:10 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:11 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:11 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:11 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:12 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:12 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:12 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:12 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:12 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:12 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:13 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:13 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:13 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:13 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:14 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:14 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:14 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:14 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:15 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:15 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:15 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:15 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:16 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:16 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:16 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:16 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:16 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:16 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:17 INFO  BaseTable:50 - Getting 225 from CLIENTS
+2019-08-17 10:51:17 INFO  BaseTable:50 - Getting 225 from CLIENTS
+2019-08-17 10:51:20 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:20 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:21 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:21 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:21 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:21 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:21 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:21 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:22 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:22 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:22 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:22 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:23 INFO  BaseTable:50 - Getting 228 from CLIENTS
+2019-08-17 10:51:23 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:23 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:24 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:24 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:24 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:24 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:24 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:24 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:24 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:25 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:25 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:25 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:25 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 10:51:25 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 10:51:26 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:26 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:26 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:27 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:27 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:27 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:27 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:27 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:27 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:28 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:28 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:28 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:29 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:29 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:51:29 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:29 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:29 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:30 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:51:32 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:32 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:32 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:33 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:51:33 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:35 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 10:51:35 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:51:41 INFO  BaseTable:50 - Getting 2 from OPERATIONS
+2019-08-17 10:51:41 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:51:46 INFO  BaseTable:50 - Getting 3 from OPERATIONS
+2019-08-17 10:51:48 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:51:51 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 10:51:51 WARN  BaseTable:62 - Query has not found Entity 4
+2019-08-17 10:51:55 ERROR OperationRepo:37 - Not permitted to change operations. If you have mistaken, please storno the payment and provide another one
+2019-08-17 10:51:55 INFO  BaseTable:50 - Getting 12 from OPERATIONS
+2019-08-17 10:51:56 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 10:58:45 INFO  BaseTable:50 - Getting 642 from ACCOUNTS
+2019-08-17 10:59:03 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 10:59:03 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:59:04 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 10:59:04 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:59:05 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 10:59:05 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:59:07 INFO  BaseTable:50 - Getting 241 from CLIENTS
+2019-08-17 10:59:07 WARN  BaseTable:62 - Query has not found Entity 241
+2019-08-17 10:59:08 INFO  BaseTable:50 - Getting 242 from CLIENTS
+2019-08-17 10:59:08 WARN  BaseTable:62 - Query has not found Entity 242
+2019-08-17 10:59:08 INFO  BaseTable:50 - Getting 243 from CLIENTS
+2019-08-17 10:59:09 WARN  BaseTable:62 - Query has not found Entity 243
+2019-08-17 10:59:10 INFO  BaseTable:50 - Getting 244 from CLIENTS
+2019-08-17 10:59:12 WARN  BaseTable:62 - Query has not found Entity 244
+2019-08-17 10:59:13 INFO  BaseTable:50 - Getting 245 from CLIENTS
+2019-08-17 10:59:13 WARN  BaseTable:62 - Query has not found Entity 245
+2019-08-17 10:59:14 INFO  BaseTable:50 - Getting 246 from CLIENTS
+2019-08-17 10:59:14 WARN  BaseTable:62 - Query has not found Entity 246
+2019-08-17 10:59:15 INFO  BaseTable:50 - Getting 247 from CLIENTS
+2019-08-17 10:59:15 WARN  BaseTable:62 - Query has not found Entity 247
+2019-08-17 10:59:16 INFO  BaseTable:50 - Getting 248 from CLIENTS
+2019-08-17 10:59:16 WARN  BaseTable:62 - Query has not found Entity 248
+2019-08-17 10:59:17 INFO  BaseTable:50 - Getting 249 from CLIENTS
+2019-08-17 10:59:17 WARN  BaseTable:62 - Query has not found Entity 249
+2019-08-17 10:59:18 INFO  BaseTable:50 - Getting 250 from CLIENTS
+2019-08-17 10:59:19 INFO  BaseTable:50 - Getting 250 from CLIENTS
+2019-08-17 10:59:19 INFO  BaseTable:50 - Getting 250 from CLIENTS
+2019-08-17 10:59:20 WARN  BaseTable:62 - Query has not found Entity 250
+2019-08-17 10:59:20 INFO  BaseTable:50 - Getting 251 from CLIENTS
+2019-08-17 10:59:20 WARN  BaseTable:62 - Query has not found Entity 251
+2019-08-17 10:59:21 INFO  BaseTable:50 - Getting 252 from CLIENTS
+2019-08-17 10:59:21 WARN  BaseTable:62 - Query has not found Entity 252
+2019-08-17 10:59:22 INFO  BaseTable:50 - Getting 253 from CLIENTS
+2019-08-17 10:59:25 INFO  BaseTable:50 - Getting 253 from CLIENTS
+2019-08-17 10:59:25 WARN  BaseTable:62 - Query has not found Entity 253
+2019-08-17 10:59:26 INFO  BaseTable:50 - Getting 254 from CLIENTS
+2019-08-17 10:59:26 WARN  BaseTable:62 - Query has not found Entity 254
+2019-08-17 10:59:27 INFO  BaseTable:50 - Getting 255 from CLIENTS
+2019-08-17 10:59:27 WARN  BaseTable:62 - Query has not found Entity 255
+2019-08-17 10:59:28 INFO  BaseTable:50 - Getting null from CLIENTS
+2019-08-17 10:59:29 INFO  BaseTable:50 - Getting 256 from CLIENTS
+2019-08-17 10:59:29 WARN  BaseTable:62 - Query has not found Entity 256
+2019-08-17 10:59:30 INFO  BaseTable:50 - Getting 257 from CLIENTS
+2019-08-17 10:59:30 WARN  BaseTable:62 - Query has not found Entity 257
+2019-08-17 10:59:30 INFO  BaseTable:50 - Getting 258 from CLIENTS
+2019-08-17 10:59:31 WARN  BaseTable:62 - Query has not found Entity 258
+2019-08-17 10:59:32 INFO  BaseTable:50 - Getting 260 from CLIENTS
+2019-08-17 10:59:32 WARN  BaseTable:62 - Query has not found Entity 260
+2019-08-17 10:59:33 INFO  BaseTable:50 - Getting 261 from CLIENTS
+2019-08-17 10:59:33 WARN  BaseTable:62 - Query has not found Entity 261
+2019-08-17 10:59:33 INFO  BaseTable:50 - Getting 262 from CLIENTS
+2019-08-17 10:59:34 WARN  BaseTable:62 - Query has not found Entity 262
+2019-08-17 10:59:39 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 10:59:39 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 10:59:40 INFO  BaseTable:50 - Getting 2 from OPERATIONS
+2019-08-17 10:59:40 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 10:59:41 INFO  BaseTable:50 - Getting 3 from OPERATIONS
+2019-08-17 10:59:41 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 10:59:41 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 10:59:42 WARN  BaseTable:62 - Query has not found Entity 4
+2019-08-17 10:59:44 ERROR OperationRepo:37 - Not permitted to change operations. If you have mistaken, please storno the payment and provide another one
+2019-08-17 10:59:44 INFO  BaseTable:50 - Getting 17 from OPERATIONS
+2019-08-17 10:59:44 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 11:04:16 INFO  BaseTable:50 - Getting 1 from CLIENTS
+2019-08-17 11:04:16 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 11:04:17 INFO  BaseTable:50 - Getting 2 from CLIENTS
+2019-08-17 11:04:17 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 11:04:17 INFO  BaseTable:50 - Getting 3 from CLIENTS
+2019-08-17 11:04:17 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 11:04:18 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 11:04:18 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 11:06:01 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 11:06:03 WARN  BaseTable:62 - Query has not found Entity 1
+2019-08-17 11:06:04 INFO  BaseTable:50 - Getting 2 from OPERATIONS
+2019-08-17 11:06:04 WARN  BaseTable:62 - Query has not found Entity 2
+2019-08-17 11:06:04 INFO  BaseTable:50 - Getting 3 from OPERATIONS
+2019-08-17 11:06:04 WARN  BaseTable:62 - Query has not found Entity 3
+2019-08-17 11:06:05 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 11:06:05 WARN  BaseTable:62 - Query has not found Entity 4
+2019-08-17 12:26:12 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:26:12 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:26:12 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:26:36 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:26:36 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:26:36 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:28:01 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:28:01 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:28:01 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:28:18 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:28:18 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:28:18 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:29:51 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:29:51 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:29:51 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:30:38 INFO  BaseTable:50 - Getting 1 from OPERATIONS
+2019-08-17 12:31:30 INFO  AccountEndpoint:35 - Opening session for client by document null
+2019-08-17 12:31:30 ERROR AccountEndpoint:49 - Error occured
+java.lang.NullPointerException
+	at repository.ClientRepo.getByDocument(ClientRepo.java:137)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 12:31:30 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 12:34:51 INFO  AccountEndpoint:35 - Opening session for client by document 1616161616
+2019-08-17 12:37:41 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 12:37:44 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:37:44 ERROR AccountEndpoint:52 - Error occured
+java.io.IOException: java.util.concurrent.ExecutionException: javax.websocket.EncodeException: No encoder specified for object of class [class entities.Client]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendObject(WsRemoteEndpointImplBase.java:458)
+	at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendObject(WsRemoteEndpointBasic.java:74)
+	at servlets.endpoints.AccountEndpoint.onOpen(AccountEndpoint.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:58)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:70)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:129)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:629)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: javax.websocket.EncodeException: No encoder specified for object of class [class entities.Client]
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:81)
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:31)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendObject(WsRemoteEndpointImplBase.java:454)
+	... 14 more
+Caused by: javax.websocket.EncodeException: No encoder specified for object of class [class entities.Client]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendObjectByCompletion(WsRemoteEndpointImplBase.java:518)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendObjectByFuture(WsRemoteEndpointImplBase.java:464)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendObject(WsRemoteEndpointImplBase.java:452)
+	... 14 more
+2019-08-17 12:37:44 INFO  AccountEndpoint:46 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:51:48 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 12:51:51 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:52:29 INFO  AccountEndpoint:49 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:52:33 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 12:52:35 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:52:39 INFO  AccountEndpoint:49 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:52:44 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 12:52:45 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:53:38 INFO  AccountEndpoint:49 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:53:40 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 12:53:43 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:54:25 INFO  AccountEndpoint:49 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 12:54:33 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 12:54:35 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'}
+2019-08-17 13:01:44 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:01:47 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:02:25 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:02:31 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:02:33 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:08:16 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:08:19 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:09:09 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:09:14 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:09:17 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:10:08 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:10:21 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:10:24 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:10:42 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:12:19 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:12:22 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:12:22 INFO  AccountEndpoint:60 - seinding client id=null, firstName='null', lastName='null', document='null'
+2019-08-17 13:14:53 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:14:56 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:14:56 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:15:29 ERROR AccountEndpoint:53 - Error occured
+java.io.IOException: java.util.concurrent.ExecutionException: java.net.SocketException: Connection reset by peer: socket write error
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:230)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:477)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:316)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:192)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:178)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:601)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: java.net.SocketException: Connection reset by peer: socket write error
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:225)
+	... 14 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.coyote.http11.upgrade.BioServletOutputStream.doWrite(BioServletOutputStream.java:37)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:123)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:90)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:84)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:71)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:368)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:265)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:220)
+	... 14 more
+2019-08-17 13:15:29 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:15:47 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:15:49 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:15:49 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:17:02 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:17:09 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:17:11 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:17:11 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:18:14 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:18:20 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:18:22 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:18:22 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:21:41 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:21:52 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:21:54 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:21:54 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:24:06 INFO  AccountEndpoint:47 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:24:10 INFO  AccountEndpoint:38 - Opening session for client by document 1616161616
+2019-08-17 13:24:13 INFO  AccountEndpoint:42 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:24:13 INFO  AccountEndpoint:60 - seinding client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:47:15 INFO  AccountEndpoint:35 - Opening session for client by document 1616161616
+2019-08-17 13:47:18 INFO  AccountEndpoint:39 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 13:47:18 INFO  AccountEndpoint:56 - seinding data of clientIvan Ivanov
+2019-08-17 14:01:25 INFO  AccountEndpoint:44 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:01:31 INFO  AccountEndpoint:35 - Opening session for client by document 1616161616
+2019-08-17 14:01:33 INFO  AccountEndpoint:39 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:01:33 INFO  AccountEndpoint:56 - seinding data of clientIvan Ivanov
+2019-08-17 14:02:38 INFO  AccountEndpoint:44 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:03:04 INFO  AccountEndpoint:35 - Opening session for client by document 1616161616
+2019-08-17 14:03:07 INFO  AccountEndpoint:39 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:03:07 INFO  AccountEndpoint:56 - seinding data of clientIvan Ivanov
+2019-08-17 14:06:08 INFO  AccountEndpoint:44 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:06:20 INFO  AccountEndpoint:35 - Opening session for client by document 2000222111
+2019-08-17 14:06:22 INFO  AccountEndpoint:39 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 14:06:22 INFO  AccountEndpoint:56 - seinding data of clientMiroslava Karpovic
+2019-08-17 14:19:54 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:19:57 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:19:57 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:20:42 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:20:45 INFO  AccountEndpoint:36 - Opening session for client by document 1919191919
+2019-08-17 14:20:47 INFO  AccountEndpoint:40 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 14:20:47 INFO  AccountEndpoint:57 - seinding data of client Petra Stankovic
+2019-08-17 14:24:51 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:24:54 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:24:54 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:26:30 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:26:33 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:26:33 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:38:16 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:38:19 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:38:19 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:39:43 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:39:51 INFO  AccountEndpoint:36 - Opening session for client by document 1919191919
+2019-08-17 14:39:53 INFO  AccountEndpoint:40 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 14:39:53 INFO  AccountEndpoint:57 - seinding data of client Petra Stankovic
+2019-08-17 14:40:59 INFO  AccountEndpoint:45 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 14:41:03 INFO  AccountEndpoint:36 - Opening session for client by document 1919191919
+2019-08-17 14:41:05 INFO  AccountEndpoint:40 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 14:41:05 INFO  AccountEndpoint:57 - seinding data of client Petra Stankovic
+2019-08-17 14:41:46 INFO  AccountEndpoint:45 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 14:41:53 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:41:56 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:41:56 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:42:41 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:42:47 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:42:49 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:42:49 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:43:29 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:43:35 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:43:38 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:43:38 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:44:00 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:44:08 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:44:10 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:44:10 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:45:21 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:45:31 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:45:34 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:45:34 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:49:16 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:49:21 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:49:24 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:49:24 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 14:51:14 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:51:20 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 14:51:22 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 14:51:22 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:00:39 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:00:45 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:00:47 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:00:47 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:04:19 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:04:26 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:04:29 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:04:29 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:05:52 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:06:26 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:06:29 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:06:29 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:07:19 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:07:27 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:07:30 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:07:30 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:08:11 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:08:16 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:08:19 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:08:19 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:08:35 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:08:41 INFO  AccountEndpoint:36 - Opening session for client by document 2000222111
+2019-08-17 15:08:43 INFO  AccountEndpoint:40 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:08:43 INFO  AccountEndpoint:57 - seinding data of client Miroslava Karpovic
+2019-08-17 15:12:04 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:12:05 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:12:05 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:12:05 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:12:44 INFO  AccountEndpoint:36 - Opening session for client by document 2000222111
+2019-08-17 15:12:47 INFO  AccountEndpoint:40 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:12:47 INFO  AccountEndpoint:57 - seinding data of client Miroslava Karpovic
+2019-08-17 15:13:00 INFO  AccountEndpoint:45 - Closing session for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:13:06 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:13:08 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:13:08 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:13:45 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:13:47 INFO  AccountEndpoint:36 - Opening session for client by document 1919191919
+2019-08-17 15:13:49 INFO  AccountEndpoint:40 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 15:13:49 INFO  AccountEndpoint:57 - seinding data of client Petra Stankovic
+2019-08-17 15:15:46 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:15:50 ERROR BaseTable:67 - Could not get entity 4 from table OPERATIONS
+exceptions.TableException: База данных уже используется: null. Возможные решения: закрыть все другие соединения; использовать режим сервера
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-199]
+	at dbutils.ExceptionUtil.convertException(ExceptionUtil.java:12)
+	at dbutils.SqlHelper.execute(SqlHelper.java:35)
+	at repository.BaseTable.get(BaseTable.java:55)
+	at repository.OperationRepo.get(OperationRepo.java:75)
+	at repository.OperationRepo.save(OperationRepo.java:45)
+	at repository.OperationRepo.save(OperationRepo.java:20)
+	at dbutils.DBConnector.main(DBConnector.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 15:16:25 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:16:28 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:16:28 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:16:29 INFO  BaseTable:50 - Getting 4 from OPERATIONS
+2019-08-17 15:17:57 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 15:18:00 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 15:18:01 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 15:18:01 INFO  BaseTable:50 - Getting null from OPERATIONS
+2019-08-17 15:19:06 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:19:09 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:19:09 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:20:41 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:20:47 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:20:49 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:20:49 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:23:54 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:23:59 INFO  AccountEndpoint:36 - Opening session for client by document 1616161616
+2019-08-17 15:24:02 INFO  AccountEndpoint:40 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:24:02 INFO  AccountEndpoint:57 - seinding data of client Ivan Ivanov
+2019-08-17 15:26:58 INFO  AccountEndpoint:45 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:27:06 INFO  AccountEndpoint:36 - Opening session for client by document 1919191919
+2019-08-17 15:27:09 INFO  AccountEndpoint:40 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 15:27:09 INFO  AccountEndpoint:57 - seinding data of client Petra Stankovic
+2019-08-17 15:27:28 INFO  AccountEndpoint:45 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 15:27:32 INFO  AccountEndpoint:36 - Opening session for client by document 2000222111
+2019-08-17 15:27:34 INFO  AccountEndpoint:40 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:27:34 INFO  AccountEndpoint:57 - seinding data of client Miroslava Karpovic
+2019-08-17 15:28:51 INFO  AccountEndpoint:45 - Closing session for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:29:03 INFO  AccountEndpoint:36 - Opening session for client by document 2000222111
+2019-08-17 15:29:06 INFO  AccountEndpoint:40 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:29:06 INFO  AccountEndpoint:57 - seinding data of client Miroslava Karpovic
+2019-08-17 15:36:27 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 15:36:30 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:36:30 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 15:36:48 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 15:37:02 INFO  AccountEndpoint:34 - Opening session for client by document 2000222111
+2019-08-17 15:37:05 INFO  AccountEndpoint:38 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:37:05 INFO  AccountEndpoint:55 - seinding data of client Miroslava Karpovic
+2019-08-17 15:37:26 INFO  AccountEndpoint:43 - Closing session for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 15:37:27 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 15:37:30 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 15:37:30 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 17:43:30 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 17:43:33 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:43:33 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 17:49:30 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:49:36 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 17:49:39 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:49:39 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 17:51:15 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:51:23 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 17:51:25 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 17:51:25 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 17:51:29 INFO  AccountEndpoint:43 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 17:51:34 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 17:51:34 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:51:34 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 17:55:05 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:55:10 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 17:55:13 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:55:13 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 17:56:02 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:56:11 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 17:56:13 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 17:56:13 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 17:56:34 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:10:56 INFO  AccountEndpoint:34 - Opening session for client by document 16161616
+2019-08-17 18:10:58 INFO  AccountEndpoint:38 - session opened for client null
+2019-08-17 18:11:57 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 18:12:02 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:12:05 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:12:05 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:16:53 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:19:51 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:19:54 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:20:47 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:20:51 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:20:53 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:20:53 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:22:51 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:22:55 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:22:57 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:22:57 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:23:38 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:23:43 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:23:46 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:23:46 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:23:56 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:24:00 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:24:03 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:24:03 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:24:29 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:24:35 INFO  AccountEndpoint:34 - Opening session for client by document 16161616
+2019-08-17 18:24:38 INFO  AccountEndpoint:38 - session opened for client null
+2019-08-17 18:24:38 ERROR AccountEndpoint:64 - Could not operate...
+java.lang.NullPointerException
+	at servlets.endpoints.AccountEndpoint.onMessage(AccountEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBase.onMessage(PojoMessageHandlerWholeBase.java:80)
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:369)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:468)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:272)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:192)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:178)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:601)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-17 18:24:51 INFO  AccountEndpoint:43 - Closing session for client null
+2019-08-17 18:24:57 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 18:24:59 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 18:24:59 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 18:25:22 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 20:51:01 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 20:51:04 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 20:51:04 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 20:53:26 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 20:53:35 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 20:53:37 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 20:53:37 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 20:53:54 INFO  AccountEndpoint:43 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 20:53:59 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 20:54:02 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 20:54:02 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 20:54:59 INFO  AccountEndpoint:43 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 20:55:03 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 20:55:06 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 20:55:06 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 21:00:30 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:00:33 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:00:33 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:04:44 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:04:51 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:04:54 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:04:54 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:06:12 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:08:45 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:08:48 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:08:48 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:09:45 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:09:51 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:09:54 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:09:54 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:10:17 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:10:23 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:10:26 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:10:26 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:11:03 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:11:13 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:11:16 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:11:16 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:13:57 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:14:05 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:14:07 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:14:07 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:14:38 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:14:44 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:14:47 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:14:47 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:16:10 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:16:23 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:16:26 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:16:26 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 21:17:05 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:17:17 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 21:17:20 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 21:17:20 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:15:40 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:15:44 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:15:44 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:15:46 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:15:52 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:15:52 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:15:52 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:16:06 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:16:20 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:16:23 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:16:23 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:27:47 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:27:53 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 22:27:56 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 22:27:56 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-17 22:30:45 INFO  AccountEndpoint:43 - Closing session for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 22:30:51 INFO  AccountEndpoint:34 - Opening session for client by document 2000222111
+2019-08-17 22:30:54 INFO  AccountEndpoint:38 - session opened for client id=3, firstName='Miroslava', lastName='Karpovic', document='2000222111'
+2019-08-17 22:30:54 INFO  AccountEndpoint:55 - seinding data of client Miroslava Karpovic
+2019-08-17 22:37:49 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:37:52 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:37:52 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:40:13 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:40:18 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:40:21 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:40:21 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:44:30 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:44:34 INFO  AccountEndpoint:34 - Opening session for client by document 1616161616
+2019-08-17 22:44:36 INFO  AccountEndpoint:38 - session opened for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:44:36 INFO  AccountEndpoint:55 - seinding data of client Ivan Ivanov
+2019-08-17 22:48:23 INFO  AccountEndpoint:43 - Closing session for client id=1, firstName='Ivan', lastName='Ivanov', document='1616161616'
+2019-08-17 22:48:28 INFO  AccountEndpoint:34 - Opening session for client by document 1919191919
+2019-08-17 22:48:31 INFO  AccountEndpoint:38 - session opened for client id=2, firstName='Petra', lastName='Stankovic', document='1919191919'
+2019-08-17 22:48:31 INFO  AccountEndpoint:55 - seinding data of client Petra Stankovic
+2019-08-18 11:46:33 INFO  AuthorizationServlet:26 - 1616161616
+2019-08-18 11:48:18 INFO  AuthorizationServlet:26 - 1616161616
+2019-08-18 12:31:13 INFO  AuthorizationServlet:60 - Зашли в дупост
+2019-08-18 12:31:13 ERROR AuthorizationServlet:76 - java.lang.NullPointerException
+2019-08-18 12:36:50 INFO  AuthorizationServlet:61 - Зашли в дупост
+2019-08-18 12:36:50 INFO  AuthorizationServlet:71 - {"docNumber":"1616161616"}
+2019-08-18 12:36:50 INFO  AuthorizationServlet:73 - clientDoc = 1616161616
+2019-08-18 12:47:59 INFO  AuthorizationServlet:62 - Зашли в дупост
+2019-08-18 12:47:59 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 12:47:59 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 12:59:46 INFO  AuthorizationServlet:62 - Зашли в дупост
+2019-08-18 12:59:46 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 12:59:46 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 13:01:10 INFO  AuthorizationServlet:62 - Зашли в дупост
+2019-08-18 13:01:10 INFO  AuthorizationServlet:73 - docNumber=1616161616
+2019-08-18 13:01:10 ERROR AuthorizationServlet:93 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:02:03 INFO  AuthorizationServlet:62 - Зашли в дупост
+2019-08-18 13:02:03 INFO  AuthorizationServlet:73 - docNumber=1616161616
+2019-08-18 13:02:03 ERROR AuthorizationServlet:93 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:06:40 INFO  AuthorizationServlet:62 - Зашли в дупост
+2019-08-18 13:06:40 INFO  AuthorizationServlet:70 - {"docNumber":"1616161616"}
+2019-08-18 13:06:40 INFO  AuthorizationServlet:72 - clientDoc = 1616161616
+2019-08-18 13:13:20 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:13:20 INFO  AuthorizationServlet:71 - {"docNumber":"1616161616"}
+2019-08-18 13:13:20 INFO  AuthorizationServlet:73 - clientDoc = 1616161616
+2019-08-18 13:13:23 INFO  AuthorizationServlet:79 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 13:15:01 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:15:01 INFO  AuthorizationServlet:71 - docNumber=1616161616
+2019-08-18 13:15:01 ERROR AuthorizationServlet:95 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:21:18 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:21:18 INFO  AuthorizationServlet:71 - docNumber=1616161616
+2019-08-18 13:21:18 ERROR AuthorizationServlet:95 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:21:23 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:21:23 INFO  AuthorizationServlet:71 - docNumber=1616161616
+2019-08-18 13:21:23 ERROR AuthorizationServlet:95 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:21:31 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:21:31 INFO  AuthorizationServlet:71 - {"docNumber": "1616161616"}
+2019-08-18 13:21:31 INFO  AuthorizationServlet:73 - clientDoc = 1616161616
+2019-08-18 13:21:34 INFO  AuthorizationServlet:79 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 13:23:31 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:23:31 INFO  AuthorizationServlet:71 - {"docNumber": "1616161616"}
+2019-08-18 13:23:31 INFO  AuthorizationServlet:73 - clientDoc = 1616161616
+2019-08-18 13:23:33 INFO  AuthorizationServlet:79 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 13:23:56 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:23:56 INFO  AuthorizationServlet:71 - {"docNumber": "1919191919"}
+2019-08-18 13:23:56 INFO  AuthorizationServlet:73 - clientDoc = 1919191919
+2019-08-18 13:23:58 INFO  AuthorizationServlet:79 - client = {"id":2,"firstName":"Petra","lastName":"Stankovic","address":"Slovakia","phone":"+7904000000","sex":"FEMALE","isBlocked":false,"document":"1919191919"}
+2019-08-18 13:24:08 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:24:08 INFO  AuthorizationServlet:71 - {"docNumber": "1919191334"}
+2019-08-18 13:24:08 INFO  AuthorizationServlet:73 - clientDoc = 1919191334
+2019-08-18 13:24:11 INFO  AuthorizationServlet:92 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:30:29 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:30:29 INFO  AuthorizationServlet:72 - {"docNumber": "156456765"}
+2019-08-18 13:30:29 INFO  AuthorizationServlet:74 - clientDoc = 156456765
+2019-08-18 13:30:32 INFO  AuthorizationServlet:95 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:40:17 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:40:17 INFO  AuthorizationServlet:72 - {"docNumber": "56465"}
+2019-08-18 13:40:17 INFO  AuthorizationServlet:74 - clientDoc = 56465
+2019-08-18 13:40:20 INFO  AuthorizationServlet:95 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:43:59 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:43:59 INFO  AuthorizationServlet:72 - docNumber=564654
+2019-08-18 13:43:59 ERROR AuthorizationServlet:100 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:47:55 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:47:55 INFO  AuthorizationServlet:72 - {"docNumber": "6546546"}
+2019-08-18 13:47:55 INFO  AuthorizationServlet:74 - clientDoc = 6546546
+2019-08-18 13:47:56 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:47:56 INFO  AuthorizationServlet:72 - {"docNumber": "6546546"}
+2019-08-18 13:47:56 INFO  AuthorizationServlet:74 - clientDoc = 6546546
+2019-08-18 13:47:58 INFO  AuthorizationServlet:95 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:47:58 INFO  AuthorizationServlet:95 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:52:05 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:52:05 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 13:52:05 ERROR AuthorizationServlet:100 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:53:12 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:53:12 INFO  AuthorizationServlet:72 - docNumber=1919191919
+2019-08-18 13:53:12 ERROR AuthorizationServlet:100 - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+2019-08-18 13:57:52 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:57:52 INFO  AuthorizationServlet:72 - {"docNumber": "45646546546"}
+2019-08-18 13:57:52 INFO  AuthorizationServlet:74 - clientDoc = 45646546546
+2019-08-18 13:57:52 INFO  AuthorizationServlet:103 - error = {"code":510,"message":"Unexcpected exception. Document number must not be empty and must have length not more than 10 characters"}
+2019-08-18 13:58:35 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:58:35 INFO  AuthorizationServlet:72 - {"docNumber": "465456"}
+2019-08-18 13:58:35 INFO  AuthorizationServlet:74 - clientDoc = 465456
+2019-08-18 13:58:38 INFO  AuthorizationServlet:95 - error = {"code":509,"message":"The user is not found"}
+2019-08-18 13:58:52 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 13:58:52 INFO  AuthorizationServlet:72 - {"docNumber": "1616161616"}
+2019-08-18 13:58:52 INFO  AuthorizationServlet:74 - clientDoc = 1616161616
+2019-08-18 13:58:54 INFO  AuthorizationServlet:80 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:00:30 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:00:30 INFO  AuthorizationServlet:72 - {"docNumber": "1616161616"}
+2019-08-18 14:00:30 INFO  AuthorizationServlet:74 - clientDoc = 1616161616
+2019-08-18 14:00:32 INFO  AuthorizationServlet:80 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:01:26 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:01:26 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 14:01:26 INFO  AuthorizationServlet:103 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:01:46 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:01:46 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 14:01:46 INFO  AuthorizationServlet:103 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:01:47 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:01:47 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 14:01:47 INFO  AuthorizationServlet:103 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:03:25 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:03:25 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 14:03:25 INFO  AuthorizationServlet:103 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:06:06 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:06:06 INFO  AuthorizationServlet:76 - docNumber=1616161616
+2019-08-18 14:06:06 INFO  AuthorizationServlet:110 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:06:15 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:06:15 INFO  AuthorizationServlet:76 - docNumber=1616161616
+2019-08-18 14:06:15 INFO  AuthorizationServlet:110 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:06:28 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:06:28 INFO  AuthorizationServlet:76 - docNumber=1616161616
+2019-08-18 14:06:28 INFO  AuthorizationServlet:110 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:07:21 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:07:21 INFO  AuthorizationServlet:76 - docNumber=1616161616
+2019-08-18 14:07:21 INFO  AuthorizationServlet:110 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:07:34 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:07:34 INFO  AuthorizationServlet:76 - "{\"docNumber\": \"1616161616\"}"
+2019-08-18 14:07:34 INFO  AuthorizationServlet:110 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $"}
+2019-08-18 14:08:20 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:08:20 INFO  AuthorizationServlet:76 - {"docNumber":"1616161616"}
+2019-08-18 14:08:20 INFO  AuthorizationServlet:78 - clientDoc = 1616161616
+2019-08-18 14:08:23 INFO  AuthorizationServlet:84 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:09:57 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:09:57 INFO  AuthorizationServlet:76 - {"docNumber":"1616161616"}
+2019-08-18 14:09:57 INFO  AuthorizationServlet:78 - clientDoc = 1616161616
+2019-08-18 14:10:00 INFO  AuthorizationServlet:84 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:12:47 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:12:47 INFO  AuthorizationServlet:76 - {"docNumber":"1616161616"}
+2019-08-18 14:12:47 INFO  AuthorizationServlet:78 - clientDoc = 1616161616
+2019-08-18 14:12:50 INFO  AuthorizationServlet:84 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:15:13 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:15:13 INFO  AuthorizationServlet:72 - {"docNumber":"1616161616"}
+2019-08-18 14:15:13 INFO  AuthorizationServlet:74 - clientDoc = 1616161616
+2019-08-18 14:15:16 INFO  AuthorizationServlet:80 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:15:38 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:15:38 INFO  AuthorizationServlet:72 - docNumber=1616161616
+2019-08-18 14:15:38 INFO  AuthorizationServlet:100 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:19:36 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:19:36 INFO  AuthorizationServlet:73 - docNumber=1616161616
+2019-08-18 14:19:36 INFO  AuthorizationServlet:101 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:22:13 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:22:13 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:22:13 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:22:16 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:22:38 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:22:38 INFO  AuthorizationServlet:73 - docNumber=1616161616
+2019-08-18 14:22:38 INFO  AuthorizationServlet:101 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:30:07 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:30:07 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:30:07 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:30:10 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:36:41 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:36:41 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:36:41 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:36:44 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:38:29 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:38:29 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:38:29 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:38:32 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:42:47 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:42:47 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:42:47 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:42:50 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:45:24 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:45:24 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:45:24 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:45:27 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:47:33 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:47:33 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:47:33 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:47:36 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:49:29 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:49:29 INFO  AuthorizationServlet:73 - {"docNumber":"1616161616"}
+2019-08-18 14:49:29 INFO  AuthorizationServlet:75 - clientDoc = 1616161616
+2019-08-18 14:49:32 INFO  AuthorizationServlet:81 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}
+2019-08-18 14:52:27 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:52:27 INFO  AuthorizationServlet:74 - docNumber=1616161616
+2019-08-18 14:52:27 INFO  AuthorizationServlet:102 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:53:43 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:53:43 INFO  AuthorizationServlet:74 - docNumber=1616161616
+2019-08-18 14:53:43 INFO  AuthorizationServlet:102 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:54:04 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:54:04 INFO  AuthorizationServlet:74 - docNumber=1616161616
+2019-08-18 14:54:04 INFO  AuthorizationServlet:102 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:54:54 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:54:54 INFO  AuthorizationServlet:74 - docNumber=1616161616
+2019-08-18 14:54:54 INFO  AuthorizationServlet:102 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:55:39 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:55:39 INFO  AuthorizationServlet:74 - docNumber=1616161616
+2019-08-18 14:55:39 INFO  AuthorizationServlet:102 - error = {"code":510,"message":"Unexcpected exception. java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $"}
+2019-08-18 14:58:36 INFO  AuthorizationServlet:63 - Зашли в дупост
+2019-08-18 14:58:36 INFO  AuthorizationServlet:74 - {"docNumber":"1616161616"}
+2019-08-18 14:58:36 INFO  AuthorizationServlet:76 - clientDoc = 1616161616
+2019-08-18 14:58:39 INFO  AuthorizationServlet:82 - client = {"id":1,"firstName":"Ivan","lastName":"Ivanov","address":"Russia","phone":"+79041123232","sex":"MALE","isBlocked":false,"document":"1616161616"}

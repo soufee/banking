@@ -16,6 +16,7 @@ public class SqlHelper {
 
     static {
         DB_URL = "jdbc:h2:/" + System.getProperty("user.dir") + "/db/data.";
+        System.out.println(DB_URL);
     }
 
     public SqlHelper(String env) {

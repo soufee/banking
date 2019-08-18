@@ -1,86 +1,73 @@
+<%@ page import="entities.Client" %>
+<%@ page import="com.google.gson.Gson" %>
+<%@ page import="entities.dto.ErrorDto" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <html>
 <head>
     <title>Money transfer</title>
-    <style>
+    <link href="${pageContext.request.contextPath}/css/search.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/drop.css" rel="stylesheet">
 
-
-        .outcome {
-            color: red;
-        }
-
-        .income {
-            color: green;
-        }
-
-        #start {
-            position: relative;
-            padding-top: 1.5rem;
-            display: block;
-        }
-
-        label {
-            position: absolute;
-            top: 0;
-            font-size: 10;
-            opacity: 1;
-            transform: translateY(0);
-            transition: all 0.2s ease-out;
-        }
-
-        input:placeholder-shown + label {
-            opacity: 0;
-            transform: translateY(1rem);
-        }
-
-        #left_div {
-            float: left;
-            width: 50%;
-            background-color: aliceblue;
-            display: none;
-
-        }
-
-        #right_div {
-            float: right;
-            width: 50%;
-            background-color: antiquewhite;
-            display: none;
-        }
-
-        h1{
-            padding: 10px;
-            margin: 10px;
-            text-align: center;
-        }
-    </style>
-
-    <script src="${pageContext.request.contextPath}/js/main.js"></script>
-    <script>
-        let passportInput = document.querySelector("#docNumber");
-
-    </script>
 </head>
 <body>
-<div id="main">
-    <div id="start">
-        <label for="docNumber">Enter your passport number</label>
-        <input type="text" id="docNumber" placeholder="enter document number...">
-        <button id="startBtn">start</button>
+<div class="header__item" id="start">
+    <form class="search" action="${pageContext.request.contextPath}/clientgot" method="post">
+        <input id="docNumber" name="docNumber" required minlength="2" type="text"
+               placeholder="Enter your passport number" class="search__input">
+        <button id="startBtn" type="button" onclick="findClient()">
+            <img src="icons/glass.svg" alt="search">
+        </button>
+    </form>
+</div>
 
-    </div>
+
+<div id="main">
     <div id="left_div">
         <div class="client" id="client_data_wrapper">
             <h1 id="client__data__label">Client data</h1>
-            <div id="client_data"></div>
+            <div id="client_data">
+
+            </div>
+            <button id="getAccBtn" type="button" onclick="getAccounts()" style="display: none">show accounts</button>
         </div>
     </div>
     <div id="right_div">
-        <h1 id="accounts">Accounts</h1>
+        <div class="account_data_wrapper">
 
+            <h1 id="accounts">Accounts</h1>
+            <div id="account_details">
+            </div>
+        </div>
+        <div id="payment">
+            <form action="" name="payment_form" class="payment_form" onsubmit="return false">
+                <ul>
+                    <li>
+                        <h2>Payment details</h2>
+                    </li>
+                    <li>
+                        <label for="payer">Payer account:</label>
+                        <input type="text" name="payer" id="payer" readonly/>
+                    </li>
+                    <li>
+                        <label for="payee">Account number of payee:</label>
+                        <input type="text" name="payee" id="payee"/>
+                    </li>
+                    <li>
+                        <label for="amount">Amount:</label>
+                        <input type="number" step="0.01" min="0" placeholder="0,00" name="amount" id="amount"/>
+                    </li>
+                    <li>
+                        <button class="button" type="button" id="sbmtPayment">Submit Form</button>
+                    </li>
+                </ul>
+            </form>
+
+        </div>
     </div>
 </div>
+
+<script src="${pageContext.request.contextPath}/js/main.js"></script>
 
 </body>
 </html>
