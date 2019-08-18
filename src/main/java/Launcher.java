@@ -16,8 +16,6 @@ public class Launcher {
         } catch (Exception e) {
             log.error("Could not start server");
         }
-
-
     }
 
     private void startServer() throws LifecycleException {
