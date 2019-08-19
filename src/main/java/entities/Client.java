@@ -22,6 +22,6 @@ public class Client implements DBEntity {
         return "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", document='" + document+"'";
+                ", document='" + document + "'";
     }
 }

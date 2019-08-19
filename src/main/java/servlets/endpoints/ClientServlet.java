@@ -19,13 +19,22 @@ import java.io.PrintWriter;
 
 @Log4j
 @WebServlet("/clientgot")
-public class AuthorizationServlet extends HttpServlet {
-    private SqlHelper sqlHelper = new SqlHelper("dev");
-    private ClientRepoInterface clientRepo = new ClientRepo(sqlHelper);
+public class ClientServlet extends HttpServlet {
+    private SqlHelper sqlHelper;
+    private ClientRepoInterface clientRepo;
     private static Gson gson = new Gson();
 
+    public ClientServlet(SqlHelper sqlHelper) {
+        this.sqlHelper = sqlHelper;
+        clientRepo = new ClientRepo(sqlHelper);
+    }
+
+    public ClientServlet() {
+        this(new SqlHelper("dev"));
+    }
+
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.info("Servlet clientGot");
         request.setAttribute("error", null);
         response.setContentType("application/json");

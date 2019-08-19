@@ -34,8 +34,8 @@ public class OperationRepo extends BaseTable implements OperationRepoInterface {
 
     @Override
     public Operation update(Operation operation) {
-        log.error("Not permitted to change operations. If you have mistaken, please storno the payment and provide another one");
-        throw new IllegalStateException("Not permitted to change/update operations. If you have mistaken, please storno the payment and provide another one");
+        log.error("Not permitted to change operations.");
+        throw new IllegalStateException("Not permitted to change/update operations.");
     }
 
     @Override
@@ -121,7 +121,6 @@ public class OperationRepo extends BaseTable implements OperationRepoInterface {
     @Override
     public List<Operation> getAllOutcomeOperations(Account account) {
         return getAll().stream().filter(s -> s.getFrom().equals(account.getAccountNumber())).collect(Collectors.toList());
-
     }
 
     private LocalDateTime getLocalDateTimeFromTimeStamp(Timestamp dateTime) {

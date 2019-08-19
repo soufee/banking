@@ -18,10 +18,6 @@ public class OperationRepoTest extends BaseTableTest {
         operation2 = operationRepo.save(operation2);
         operation3 = operationRepo.save(operation3);
         operation4 = operationRepo.save(operation4);
-        assertNotNull(operation1);
-        assertNotNull(operation2);
-        assertNotNull(operation3);
-        assertNotNull(operation4);
     }
 
     @AfterClass
@@ -30,11 +26,6 @@ public class OperationRepoTest extends BaseTableTest {
         assertEquals(operationRepo.size(), 0);
 
     }
-
-//    @Test
-//    public void clear() {
-//
-//    }
 
     @Test(expected = IllegalStateException.class)
     public void update() {
@@ -59,7 +50,7 @@ public class OperationRepoTest extends BaseTableTest {
 
     @Test
     public void get() {
-        Operation operation = operationRepo.get(operation1.getId()); //TODO разобраться с get by ID
+        Operation operation = operationRepo.get(operation1.getId());
         assertNotNull(operation);
         List<Operation> all = operationRepo.getAll();
         assertTrue(all.contains(operation1));
@@ -81,7 +72,7 @@ public class OperationRepoTest extends BaseTableTest {
 
     @Test
     public void size() {
-        assertTrue(operationRepo.size()>0);
+        assertTrue(operationRepo.size() > 0);
     }
 
     @Test
@@ -97,7 +88,7 @@ public class OperationRepoTest extends BaseTableTest {
     @Test
     public void getAllIncomeOperations() {
         List<Operation> allIncomeOperations = operationRepo.getAllIncomeOperations(account1);
-        for (Operation operation: allIncomeOperations) {
+        for (Operation operation : allIncomeOperations) {
             assertEquals(account1.getAccountNumber(), operation.getTo());
         }
     }
@@ -105,7 +96,7 @@ public class OperationRepoTest extends BaseTableTest {
     @Test
     public void getAllOutcomeOperations() {
         List<Operation> allOutcomeOperations = operationRepo.getAllOutcomeOperations(account1);
-        for (Operation operation: allOutcomeOperations) {
+        for (Operation operation : allOutcomeOperations) {
             assertEquals(account1.getAccountNumber(), operation.getFrom());
         }
     }

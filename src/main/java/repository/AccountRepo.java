@@ -76,7 +76,7 @@ public class AccountRepo extends BaseTable implements AccountRepoInterface {
                 if (resultSet.next()) {
                     long id = resultSet.getLong(1);
                     account.setId(id);
-                    log.debug("Saved account with id "+id);
+                    log.debug("Saved account with id " + id);
                 }
                 return account;
             });

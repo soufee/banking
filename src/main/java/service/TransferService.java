@@ -1,8 +1,10 @@
 package service;
 
+import com.google.gson.Gson;
 import dbutils.SqlHelper;
 import entities.Account;
 import entities.Operation;
+import entities.dto.PaymentResponseDto;
 import exceptions.TransactionException;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
@@ -29,7 +31,7 @@ public class TransferService {
             }
             if (to != null) {
                 to.setAmount(to.getAmount().subtract(operation.getAmount()));
-                accRepo.save(to);
+                accRepo.update(to);
             }
         } catch (Exception e) {
             log.error("Could not rollback operation " + operation);
@@ -48,7 +50,8 @@ public class TransferService {
         accountFrom.setAmount(accountFrom.getAmount().subtract(amount));
         accountTo.setAmount(accountTo.getAmount().add(amount));
         saveOperationAndAccounts(operation, accountFrom, accountTo);
-        return "operation saved succesfully " + operation;
+        PaymentResponseDto resp = new PaymentResponseDto(210, "operation saved succesfully", operation.getId());
+        return new Gson().toJson(resp);
     }
 
     private synchronized void saveOperationAndAccounts(Operation operation, Account accountFrom, Account accountTo) {

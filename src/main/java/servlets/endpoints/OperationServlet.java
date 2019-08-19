@@ -25,13 +25,23 @@ import java.util.List;
 @Log4j
 @WebServlet("/getoperations")
 public class OperationServlet extends HttpServlet {
-    private SqlHelper sqlHelper = new SqlHelper("dev");
+    private SqlHelper sqlHelper;
+    private OperationRepoInterface operRepo;
+    private AccountRepoInterface accRepo;
     private static Gson gson = new Gson();
-    private OperationRepoInterface operRepo = new OperationRepo(sqlHelper);
-    private AccountRepoInterface accRepo = new AccountRepo(sqlHelper);
+
+    public OperationServlet(SqlHelper sqlHelper) {
+        this.sqlHelper = sqlHelper;
+        operRepo = new OperationRepo(sqlHelper);
+        accRepo = new AccountRepo(sqlHelper);
+    }
+
+    public OperationServlet() {
+        this(new SqlHelper("dev"));
+    }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.info("Get operation servlet...");
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");

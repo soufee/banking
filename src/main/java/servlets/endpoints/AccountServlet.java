@@ -17,7 +17,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -25,13 +24,23 @@ import java.util.List;
 @Log4j
 @WebServlet("/getaccounts")
 public class AccountServlet extends HttpServlet {
-    private SqlHelper sqlHelper = new SqlHelper("dev");
-    private ClientRepoInterface clientRepo = new ClientRepo(sqlHelper);
-    private AccountRepoInterface accountRepo = new AccountRepo(sqlHelper);
+    private SqlHelper sqlHelper;
+    private ClientRepoInterface clientRepo;
+    private AccountRepoInterface accountRepo;
     private static Gson gson = new Gson();
 
+    public AccountServlet() {
+        this(new SqlHelper("dev"));
+    }
+
+    public AccountServlet(SqlHelper sqlHelper) {
+        this.sqlHelper = sqlHelper;
+        clientRepo = new ClientRepo(sqlHelper);
+        accountRepo = new AccountRepo(sqlHelper);
+    }
+
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.info("Get account servlet...");
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");

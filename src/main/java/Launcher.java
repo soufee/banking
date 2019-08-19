@@ -28,7 +28,7 @@ public class Launcher {
         host.setAutoDeploy(true);
         host.setDeployOnStartup(true);
         Context appContext = tomcat.addWebapp(host, "/", war.getAbsolutePath());
-        log.debug("Deployed "+ appContext.getBaseName()+" as"+appContext.getDocBase());
+        log.debug("Deployed " + appContext.getBaseName() + " as" + appContext.getDocBase());
         tomcat.start();
         tomcat.getServer().await();
     }

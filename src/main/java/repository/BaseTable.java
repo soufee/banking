@@ -6,7 +6,6 @@ import lombok.extern.log4j.Log4j;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.List;
 
 @Log4j
@@ -48,7 +47,7 @@ public abstract class BaseTable {
 
     public DBEntity get(Long id, String tableName) {
         log.info("Getting " + id + " from " + tableName);
-        if (id == null){
+        if (id == null) {
             return null;
         }
         try {

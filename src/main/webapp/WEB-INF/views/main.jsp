@@ -50,7 +50,7 @@
                         <input type="text" name="payer" id="payer" readonly/>
                     </li>
                     <li>
-                        <label for="payee">Account number of payee:</label>
+                        <label for="payee">Payee account:</label>
                         <input type="text" name="payee" id="payee"/>
                     </li>
                     <li>

@@ -14,7 +14,7 @@ function findClient() {
     client_document = docnum;
     let client = {docNumber: docnum};
 
-    let url ="/clientgot";
+    let url = "/clientgot";
     console.log(JSON.stringify(client));
     sendRequest(url, JSON.stringify(client), setClientData);
 }

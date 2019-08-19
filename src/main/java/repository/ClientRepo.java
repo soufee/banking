@@ -2,7 +2,6 @@ package repository;
 
 import com.google.common.base.Preconditions;
 import dbutils.SqlHelper;
-import entities.Account;
 import entities.Client;
 import entities.DBEntity;
 import lombok.extern.log4j.Log4j;
@@ -92,7 +91,7 @@ public class ClientRepo extends BaseTable implements ClientRepoInterface {
                 if (resultSet.next()) {
                     long id = resultSet.getLong(1);
                     client.setId(id);
-                    log.debug("Saved client with id "+id);
+                    log.debug("Saved client with id " + id);
                 }
                 return client;
             });

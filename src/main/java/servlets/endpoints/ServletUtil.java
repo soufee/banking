@@ -3,13 +3,13 @@ package servlets.endpoints;
 import lombok.extern.log4j.Log4j;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
 @Log4j
 public class ServletUtil {
     public static String getJsonFromRequest(HttpServletRequest request) throws IOException {
+        log.info("Entering getJsonFromRequest...");
         try (BufferedReader reader = request.getReader()) {
             StringBuilder sb = new StringBuilder();
             String line = null;

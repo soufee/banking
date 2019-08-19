@@ -16,25 +16,26 @@ public class SqlHelper {
 
     static {
         DB_URL = "jdbc:h2:/" + System.getProperty("user.dir") + "/db/data.";
-        System.out.println(DB_URL);
     }
 
     public SqlHelper(String env) {
         try {
             Class.forName(DB_DRIVER);
-            connectionFactory = (() -> DriverManager.getConnection(DB_URL+env+";AUTO_SERVER=TRUE"));
+            String url = DB_URL + env + ";AUTO_SERVER=TRUE";
+            connectionFactory = (() -> DriverManager.getConnection(url));
+            log.info("Connecting to " + url);
         } catch (ClassNotFoundException e) {
             log.error(e);
         }
     }
 
-    public <T> T execute(String sql, SqlExecutor<T> executor)  {
+    public <T> T execute(String sql, SqlExecutor<T> executor) {
         try (Connection connection = connectionFactory.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql)) {
             return executor.executeAndGet(ps);
         } catch (SQLException e) {
             throw ExceptionUtil.convertException(e);
-        } catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

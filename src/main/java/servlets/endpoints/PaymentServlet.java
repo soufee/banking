@@ -2,10 +2,8 @@ package servlets.endpoints;
 
 import com.google.gson.Gson;
 import dbutils.SqlHelper;
-import entities.Account;
 import entities.Operation;
 import entities.dto.PaymentDto;
-import exceptions.TransactionException;
 import lombok.extern.log4j.Log4j;
 import repository.AccountRepo;
 import repository.AccountRepoInterface;
@@ -22,19 +20,27 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.concurrent.*;
 
 @Log4j
 @WebServlet("/payment")
 public class PaymentServlet extends HttpServlet {
-    private SqlHelper sqlHelper = new SqlHelper("dev");
+    private SqlHelper sqlHelper;
     private static Gson gson = new Gson();
-    private OperationRepoInterface operRepo = new OperationRepo(sqlHelper);
-    private AccountRepoInterface accRepo = new AccountRepo(sqlHelper);
-    private TransferService transferService = new TransferService(sqlHelper, operRepo, accRepo);
+    private TransferService transferService;
+
+    public PaymentServlet() {
+        this(new SqlHelper("dev"));
+    }
+
+    public PaymentServlet(SqlHelper sqlHelper) {
+        this.sqlHelper = sqlHelper;
+        OperationRepoInterface operRepo = new OperationRepo(sqlHelper);
+        AccountRepoInterface accRepo = new AccountRepo(sqlHelper);
+        transferService = new TransferService(sqlHelper, operRepo, accRepo);
+    }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.info("Зашли в сервлет PaymentServlet в метод doPost");
         String json = ServletUtil.getJsonFromRequest(request);
         log.info(json);
@@ -53,7 +59,6 @@ public class PaymentServlet extends HttpServlet {
         }
         log.info(result != null ? result : "error");
         out.print(result);
-        log.info(result);
     }
 
 

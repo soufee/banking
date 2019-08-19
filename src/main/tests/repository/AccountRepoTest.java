@@ -8,7 +8,6 @@ import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 
@@ -16,14 +15,14 @@ import static org.junit.Assert.*;
 public class AccountRepoTest extends BaseTableTest {
 
     @Before
-    public  void setUp() {
+    public void setUp() {
         accountRepo.save(account1);
         accountRepo.save(account2);
         accountRepo.save(account3);
     }
 
     @After
-    public  void clearData() {
+    public void clearData() {
         accountRepo.clear();
     }
 
